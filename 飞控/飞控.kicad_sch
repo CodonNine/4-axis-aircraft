@@ -2033,7 +2033,7 @@
   (symbol (lib_id "Device:C") (at 30.48 105.41 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04ebf388-9131-4b0a-83e5-7f531fe1ba57)
-    (property "Reference" "C?" (at 34.29 104.14 0)
+    (property "Reference" "C11" (at 34.29 104.14 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22u" (at 34.29 106.68 0)
@@ -2050,7 +2050,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "C?") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -2059,7 +2059,7 @@
   (symbol (lib_id "power:GND") (at 72.39 144.78 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08867851-2be6-4fd2-bcff-09085b970bb8)
-    (property "Reference" "#PWR015" (at 66.04 144.78 0)
+    (property "Reference" "#PWR035" (at 66.04 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 68.58 144.78 90)
@@ -2075,7 +2075,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -2084,7 +2084,7 @@
   (symbol (lib_id "power:+3.3V") (at 220.98 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10c3b5a0-5750-4ae9-9a14-ac83ca8ace86)
-    (property "Reference" "#PWR021" (at 220.98 33.02 0)
+    (property "Reference" "#PWR01" (at 220.98 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 220.98 24.13 0)
@@ -2100,7 +2100,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -2109,7 +2109,7 @@
   (symbol (lib_id "power:+3.3V") (at 118.11 76.2 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14dc5432-822c-4a90-aa31-c7c374eb2005)
-    (property "Reference" "#PWR02" (at 114.3 76.2 0)
+    (property "Reference" "#PWR020" (at 114.3 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 121.92 76.2 90)
@@ -2125,7 +2125,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2134,7 +2134,7 @@
   (symbol (lib_id "Transistor_FET:AO3400A") (at 252.73 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15e1fc24-8299-4c12-9cdb-62acd881f821)
-    (property "Reference" "Q?" (at 259.08 151.13 0)
+    (property "Reference" "Q3" (at 259.08 151.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AO3400A" (at 259.08 153.67 0)
@@ -2152,7 +2152,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "Q?") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -2161,7 +2161,7 @@
   (symbol (lib_id "Device:R") (at 58.42 157.48 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 210dabae-e669-4e4d-88fb-8fb76eafd1e2)
-    (property "Reference" "R?" (at 60.96 156.21 0)
+    (property "Reference" "R19" (at 60.96 156.21 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "20.5k" (at 60.96 158.75 0)
@@ -2178,7 +2178,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "R?") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -2187,7 +2187,7 @@
   (symbol (lib_id "Device:R") (at 308.61 64.77 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22ef584e-1f48-4591-87c0-7289cf07a9fb)
-    (property "Reference" "R?" (at 311.15 63.5 0)
+    (property "Reference" "R10" (at 311.15 63.5 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 311.15 66.04 0)
@@ -2204,7 +2204,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "R?") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2213,7 +2213,7 @@
   (symbol (lib_id "RF_Module:2.4G-UART") (at 304.8 135.89 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2304f292-6fea-4164-9700-4592ced5c730)
-    (property "Reference" "U?" (at 297.18 134.62 0)
+    (property "Reference" "U4" (at 297.18 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.4G-UART" (at 297.18 137.16 0)
@@ -2234,7 +2234,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "U?") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -2243,7 +2243,7 @@
   (symbol (lib_id "power:GND") (at 189.23 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24844f1a-9169-4133-8029-7001322c4e9f)
-    (property "Reference" "#PWR040" (at 189.23 129.54 0)
+    (property "Reference" "#PWR028" (at 189.23 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.23 128.27 0)
@@ -2259,7 +2259,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -2268,7 +2268,7 @@
   (symbol (lib_id "Device:R") (at 171.45 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 270e9b4e-9e96-4914-8fcf-4173c827a540)
-    (property "Reference" "R?" (at 171.45 109.22 90)
+    (property "Reference" "R12" (at 171.45 109.22 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10" (at 171.45 111.76 90)
@@ -2285,7 +2285,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "R?") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -2294,7 +2294,7 @@
   (symbol (lib_id "Device:C") (at 92.71 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 277c8307-2546-4c44-844b-dae88f48f71c)
-    (property "Reference" "C?" (at 96.52 102.87 0)
+    (property "Reference" "C7" (at 96.52 102.87 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 96.52 105.41 0)
@@ -2311,7 +2311,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "C?") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -2320,7 +2320,7 @@
   (symbol (lib_id "Device:C") (at 43.18 50.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28c5a04b-744b-42ed-b2e9-150ba6898df5)
-    (property "Reference" "C?" (at 43.18 43.18 90)
+    (property "Reference" "C3" (at 43.18 43.18 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "20p" (at 43.18 45.72 90)
@@ -2337,7 +2337,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "C?") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2346,7 +2346,7 @@
   (symbol (lib_id "power:GND") (at 189.23 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28dbd250-f028-4b25-867d-751b9b5d7d2d)
-    (property "Reference" "#PWR036" (at 189.23 167.64 0)
+    (property "Reference" "#PWR040" (at 189.23 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.23 166.37 0)
@@ -2362,7 +2362,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -2371,7 +2371,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 260.35 143.51 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29326542-ae5c-41c9-9b96-da5c3bc46480)
-    (property "Reference" "J?" (at 261.62 140.97 0)
+    (property "Reference" "J3" (at 261.62 140.97 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 261.62 143.51 0)
@@ -2388,7 +2388,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "J?") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -2397,7 +2397,7 @@
   (symbol (lib_id "Transistor_FET:AO3400A") (at 186.69 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e9a9b78-80bf-4b5f-a2b5-b142f94a6ed1)
-    (property "Reference" "Q?" (at 193.04 152.4 0)
+    (property "Reference" "Q4" (at 193.04 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AO3400A" (at 193.04 154.94 0)
@@ -2415,7 +2415,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "Q?") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -2424,7 +2424,7 @@
   (symbol (lib_id "power:GND") (at 38.1 38.1 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31159d63-d1b4-4ad3-adab-5dcb7ff14de7)
-    (property "Reference" "#PWR08" (at 31.75 38.1 0)
+    (property "Reference" "#PWR07" (at 31.75 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 34.29 38.1 90)
@@ -2440,7 +2440,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2449,7 +2449,7 @@
   (symbol (lib_id "Device:R") (at 386.08 59.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31415781-6449-4969-9032-fc1795b0c3a7)
-    (property "Reference" "R?" (at 388.62 58.42 0)
+    (property "Reference" "R8" (at 388.62 58.42 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 388.62 60.96 0)
@@ -2466,7 +2466,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "R?") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -2475,7 +2475,7 @@
   (symbol (lib_id "Transistor_FET:AO3400A") (at 252.73 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 327dab22-aa62-49e5-bfd7-3d2f6538fe34)
-    (property "Reference" "Q?" (at 259.08 113.03 0)
+    (property "Reference" "Q1" (at 259.08 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AO3400A" (at 259.08 115.57 0)
@@ -2493,7 +2493,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "Q?") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -2502,7 +2502,7 @@
   (symbol (lib_id "power:GND") (at 118.11 58.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32d07975-36d3-4683-81a2-3c46d1853731)
-    (property "Reference" "#PWR06" (at 124.46 58.42 0)
+    (property "Reference" "#PWR014" (at 124.46 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 121.92 58.42 90)
@@ -2518,7 +2518,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2527,7 +2527,7 @@
   (symbol (lib_id "power:+BATT") (at 189.23 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33317d91-43a3-426b-8887-c833cab692e0)
-    (property "Reference" "#PWR039" (at 189.23 104.14 0)
+    (property "Reference" "#PWR023" (at 189.23 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 189.23 95.25 0)
@@ -2543,7 +2543,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -2552,7 +2552,7 @@
   (symbol (lib_id "Device:C") (at 104.14 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 337a7dd4-774f-4d1f-94b3-09e13395d952)
-    (property "Reference" "C?" (at 107.95 102.87 0)
+    (property "Reference" "C8" (at 107.95 102.87 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 107.95 105.41 0)
@@ -2569,7 +2569,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "C?") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -2578,7 +2578,7 @@
   (symbol (lib_id "power:+BATT") (at 68.58 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33cc862b-fe1c-430e-99ac-dd2703b33608)
-    (property "Reference" "#PWR019" (at 68.58 132.08 0)
+    (property "Reference" "#PWR029" (at 68.58 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 68.58 123.19 0)
@@ -2594,7 +2594,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -2603,7 +2603,7 @@
   (symbol (lib_id "power:GND") (at 102.87 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39031740-449b-4036-82ff-83a3fb68dc4d)
-    (property "Reference" "#PWR018" (at 102.87 158.75 0)
+    (property "Reference" "#PWR037" (at 102.87 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 157.48 0)
@@ -2619,7 +2619,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -2628,7 +2628,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 260.35 105.41 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3945d52d-33d3-44b9-ae74-a9b80d6eb5de)
-    (property "Reference" "J?" (at 261.62 102.87 0)
+    (property "Reference" "J1" (at 261.62 102.87 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 261.62 105.41 0)
@@ -2645,7 +2645,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "J?") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -2654,7 +2654,7 @@
   (symbol (lib_id "Device:R") (at 308.61 53.34 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d43836a-68b5-4c68-bb2c-bfbfb7aaeb7b)
-    (property "Reference" "R?" (at 311.15 52.07 0)
+    (property "Reference" "R5" (at 311.15 52.07 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "150k" (at 311.15 54.61 0)
@@ -2671,7 +2671,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "R?") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2680,7 +2680,7 @@
   (symbol (lib_id "Transistor_FET:AO3400A") (at 186.69 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41977032-9677-4ece-a3a9-d0967dbd2582)
-    (property "Reference" "Q?" (at 193.04 114.3 0)
+    (property "Reference" "Q2" (at 193.04 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AO3400A" (at 193.04 116.84 0)
@@ -2698,7 +2698,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "Q?") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -2707,7 +2707,7 @@
   (symbol (lib_id "Device:C") (at 113.03 148.59 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43e8f28d-b234-48fd-9029-230a39280d7c)
-    (property "Reference" "C?" (at 116.84 147.32 0)
+    (property "Reference" "C18" (at 116.84 147.32 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 116.84 149.86 0)
@@ -2724,7 +2724,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "C?") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -2733,7 +2733,7 @@
   (symbol (lib_id "Device:R") (at 40.64 64.77 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 452377e1-3e25-40c1-a886-5a9fc63935ec)
-    (property "Reference" "R?" (at 43.18 63.5 0)
+    (property "Reference" "R9" (at 43.18 63.5 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 43.18 66.04 0)
@@ -2750,7 +2750,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "R?") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -2759,7 +2759,7 @@
   (symbol (lib_id "power:+3.3V") (at 372.11 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4621f3ac-ea24-4b6a-ad82-df6e2d3aae3f)
-    (property "Reference" "#PWR031" (at 372.11 59.69 0)
+    (property "Reference" "#PWR013" (at 372.11 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 372.11 50.8 0)
@@ -2775,7 +2775,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2784,7 +2784,7 @@
   (symbol (lib_id "Device:R") (at 58.42 146.05 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 50253399-2122-4824-b022-2200ab9946c5)
-    (property "Reference" "R?" (at 60.96 144.78 0)
+    (property "Reference" "R15" (at 60.96 144.78 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "150k" (at 60.96 147.32 0)
@@ -2801,7 +2801,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "R?") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -2835,7 +2835,7 @@
   (symbol (lib_id "Device:R") (at 237.49 152.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54421cf7-978c-4c6b-92ca-90a05d9e1e92)
-    (property "Reference" "R?" (at 237.49 146.05 90)
+    (property "Reference" "R16" (at 237.49 146.05 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10" (at 237.49 148.59 90)
@@ -2852,7 +2852,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "R?") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -2861,7 +2861,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 194.31 144.78 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 568d98a1-a7bf-4a2f-be0d-f3a5b4329ba2)
-    (property "Reference" "J?" (at 195.58 142.24 0)
+    (property "Reference" "J4" (at 195.58 142.24 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 195.58 144.78 0)
@@ -2878,7 +2878,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "J?") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -2887,7 +2887,7 @@
   (symbol (lib_id "Device:C") (at 241.3 69.85 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58563d6c-1fcd-4dc7-a082-38d0c06fb58b)
-    (property "Reference" "C?" (at 245.11 68.58 0)
+    (property "Reference" "C4" (at 245.11 68.58 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 245.11 71.12 0)
@@ -2904,7 +2904,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "C?") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2913,7 +2913,7 @@
   (symbol (lib_id "Device:C") (at 127 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5903f021-3f51-4ac7-b455-7e20cb9b5100)
-    (property "Reference" "C?" (at 130.81 102.87 0)
+    (property "Reference" "C10" (at 130.81 102.87 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 130.81 105.41 0)
@@ -2930,7 +2930,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "C?") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -2939,7 +2939,7 @@
   (symbol (lib_id "Device:C") (at 115.57 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59853714-5eaa-4227-b38f-2c8fb0f4969c)
-    (property "Reference" "C?" (at 119.38 102.87 0)
+    (property "Reference" "C9" (at 119.38 102.87 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 119.38 105.41 0)
@@ -2956,7 +2956,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "C?") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -2965,7 +2965,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 194.31 106.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5dc11f90-fea0-4f2c-8c5d-64c2d9cdb538)
-    (property "Reference" "J?" (at 195.58 104.14 0)
+    (property "Reference" "J2" (at 195.58 104.14 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 195.58 106.68 0)
@@ -2982,7 +2982,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "J?") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2991,7 +2991,7 @@
   (symbol (lib_id "GigaDevice:GD32F103TBU6") (at 100.33 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5eb509a4-6e71-4781-828b-c657bc8eb88d)
-    (property "Reference" "U?" (at 100.33 81.28 0)
+    (property "Reference" "U1" (at 100.33 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "GD32F103TBU6" (at 100.33 83.82 0)
@@ -3049,7 +3049,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "U?") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -3058,7 +3058,7 @@
   (symbol (lib_id "Device:C") (at 102.87 148.59 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ecca71e-c92b-40df-b832-08d17110534f)
-    (property "Reference" "C?" (at 106.68 147.32 0)
+    (property "Reference" "C17" (at 106.68 147.32 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22u" (at 106.68 149.86 0)
@@ -3075,7 +3075,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "C?") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -3084,7 +3084,7 @@
   (symbol (lib_id "power:GND") (at 82.55 43.18 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 60c283ff-f6f9-4299-91c0-06e1da39de15)
-    (property "Reference" "#PWR010" (at 76.2 43.18 0)
+    (property "Reference" "#PWR08" (at 76.2 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.74 43.18 90)
@@ -3100,7 +3100,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3109,7 +3109,7 @@
   (symbol (lib_id "power:+3.3V") (at 118.11 55.88 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 662adf2c-e76a-43a2-8507-2662f1feb6d3)
-    (property "Reference" "#PWR03" (at 114.3 55.88 0)
+    (property "Reference" "#PWR012" (at 114.3 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 121.92 55.88 90)
@@ -3125,7 +3125,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -3134,7 +3134,7 @@
   (symbol (lib_id "Device:R") (at 245.11 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 66cbfbae-0b49-4fed-9e12-0747375740fb)
-    (property "Reference" "R?" (at 248.92 154.94 0)
+    (property "Reference" "R18" (at 248.92 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 248.92 157.48 0)
@@ -3151,7 +3151,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "R?") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -3160,7 +3160,7 @@
   (symbol (lib_id "Device:R") (at 179.07 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b799486-4d76-46ac-9638-60728afd1dac)
-    (property "Reference" "R?" (at 182.88 118.11 0)
+    (property "Reference" "R14" (at 182.88 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 182.88 120.65 0)
@@ -3177,7 +3177,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "R?") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -3186,7 +3186,7 @@
   (symbol (lib_id "Converter_DCDC:SX1308") (at 80.01 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 784a7c5a-3cf3-41a6-afbd-a1216e5878e1)
-    (property "Reference" "U?" (at 80.01 133.35 0)
+    (property "Reference" "U5" (at 80.01 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SX1308" (at 80.01 135.89 0)
@@ -3207,7 +3207,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "U?") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -3216,7 +3216,7 @@
   (symbol (lib_id "Device:LED") (at 372.11 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7976aca9-4b6e-4d15-ad61-a55cbc1f4376)
-    (property "Reference" "D?" (at 375.92 67.6275 90)
+    (property "Reference" "D2" (at 375.92 67.6275 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 375.92 70.1675 90)
@@ -3233,7 +3233,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "D?") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -3242,7 +3242,7 @@
   (symbol (lib_id "Device:L") (at 68.58 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f530cf7-0e87-43db-910c-4aee0f8d3aa3)
-    (property "Reference" "L?" (at 69.85 130.81 0)
+    (property "Reference" "L1" (at 69.85 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "L" (at 69.85 133.35 0)
@@ -3259,7 +3259,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "L?") (unit 1)
+          (reference "L1") (unit 1)
         )
       )
     )
@@ -3268,7 +3268,7 @@
   (symbol (lib_id "power:GND") (at 54.61 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 875dff62-245f-4bb7-9f83-7acc47c77351)
-    (property "Reference" "#PWR028" (at 54.61 115.57 0)
+    (property "Reference" "#PWR026" (at 54.61 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 54.61 114.3 0)
@@ -3284,7 +3284,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -3293,7 +3293,7 @@
   (symbol (lib_id "Device:C") (at 92.71 148.59 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88a2885d-2a2f-4a34-a4cf-668378a47b4b)
-    (property "Reference" "C?" (at 96.52 147.32 0)
+    (property "Reference" "C16" (at 96.52 147.32 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22u" (at 96.52 149.86 0)
@@ -3310,7 +3310,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "C?") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -3319,7 +3319,7 @@
   (symbol (lib_id "power:+3.3V") (at 110.49 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 899eb039-ed7f-4dfb-9a83-ef6f9abc12f3)
-    (property "Reference" "#PWR014" (at 110.49 104.14 0)
+    (property "Reference" "#PWR022" (at 110.49 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 110.49 95.25 0)
@@ -3335,7 +3335,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -3344,7 +3344,7 @@
   (symbol (lib_id "power:+3.3V") (at 186.69 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d9441a1-6e0c-4f47-874c-9bd0140c2c9d)
-    (property "Reference" "#PWR020" (at 186.69 40.64 0)
+    (property "Reference" "#PWR06" (at 186.69 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 186.69 31.75 0)
@@ -3360,7 +3360,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3369,7 +3369,7 @@
   (symbol (lib_id "Device:R") (at 133.35 35.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f1c8466-8c79-4dd3-914c-c86304b4bcdb)
-    (property "Reference" "R?" (at 133.35 29.21 90)
+    (property "Reference" "R1" (at 133.35 29.21 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 133.35 31.75 90)
@@ -3386,7 +3386,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "R?") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -3395,7 +3395,7 @@
   (symbol (lib_id "power:+3.3V") (at 40.64 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8fa55d2c-76d2-4863-a520-b2e198a95dfd)
-    (property "Reference" "#PWR012" (at 40.64 64.77 0)
+    (property "Reference" "#PWR015" (at 40.64 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 40.64 55.88 0)
@@ -3411,7 +3411,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -3445,7 +3445,7 @@
   (symbol (lib_id "power:GND") (at 323.85 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9440846e-9c20-4d42-9cca-2bcaa4c9c6af)
-    (property "Reference" "#PWR022" (at 323.85 146.05 0)
+    (property "Reference" "#PWR033" (at 323.85 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 323.85 144.78 0)
@@ -3461,7 +3461,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -3470,7 +3470,7 @@
   (symbol (lib_id "Device:C") (at 73.66 105.41 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94419849-148d-4f33-8823-95aaa2ce0456)
-    (property "Reference" "C?" (at 77.47 104.14 0)
+    (property "Reference" "C14" (at 77.47 104.14 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 77.47 106.68 0)
@@ -3487,7 +3487,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "C?") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -3496,7 +3496,7 @@
   (symbol (lib_id "Device:C") (at 40.64 72.39 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96ea3bff-e597-4496-93c4-a4c9f5e0f384)
-    (property "Reference" "C?" (at 44.45 71.12 0)
+    (property "Reference" "C6" (at 44.45 71.12 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 44.45 73.66 0)
@@ -3513,7 +3513,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "C?") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -3522,7 +3522,7 @@
   (symbol (lib_id "power:+3.3V") (at 82.55 33.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9cc3e11a-e390-4c87-aed3-6c8feebbc8a5)
-    (property "Reference" "#PWR01" (at 86.36 33.02 0)
+    (property "Reference" "#PWR02" (at 86.36 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 78.74 33.02 90)
@@ -3538,7 +3538,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -3547,7 +3547,7 @@
   (symbol (lib_id "Device:C") (at 224.79 33.02 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9dcad317-de7d-4fae-94b9-dd1e8a4bbd67)
-    (property "Reference" "C?" (at 224.79 25.4 90)
+    (property "Reference" "C2" (at 224.79 25.4 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1u" (at 224.79 27.94 90)
@@ -3564,7 +3564,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "C?") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -3573,7 +3573,7 @@
   (symbol (lib_id "Device:R") (at 179.07 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f2cd3fc-745d-4fa8-b726-7d3517ce08bc)
-    (property "Reference" "R?" (at 182.88 156.21 0)
+    (property "Reference" "R20" (at 182.88 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 182.88 158.75 0)
@@ -3590,7 +3590,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "R?") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -3599,7 +3599,7 @@
   (symbol (lib_id "Sensor_Motion:MPU-6050") (at 220.98 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3490b40-47a6-4d96-a459-64919132732b)
-    (property "Reference" "U?" (at 222.9359 72.39 0)
+    (property "Reference" "U2" (at 222.9359 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MPU-6050" (at 222.9359 74.93 0)
@@ -3638,7 +3638,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "U?") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -3647,7 +3647,7 @@
   (symbol (lib_id "power:+BATT") (at 255.27 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5262187-9de3-419a-9f37-b9caa4356b34)
-    (property "Reference" "#PWR037" (at 255.27 140.97 0)
+    (property "Reference" "#PWR031" (at 255.27 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 255.27 132.08 0)
@@ -3663,7 +3663,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -3672,7 +3672,7 @@
   (symbol (lib_id "Device:C") (at 323.85 135.89 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5e35d38-1029-4015-878c-0bd16f829e1f)
-    (property "Reference" "C?" (at 327.66 134.62 0)
+    (property "Reference" "C15" (at 327.66 134.62 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 327.66 137.16 0)
@@ -3689,7 +3689,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "C?") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -3698,7 +3698,7 @@
   (symbol (lib_id "Device:R") (at 237.49 114.3 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aba82201-affe-43af-87f2-d504fe6b064d)
-    (property "Reference" "R?" (at 237.49 107.95 90)
+    (property "Reference" "R11" (at 237.49 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10" (at 237.49 110.49 90)
@@ -3715,7 +3715,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "R?") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -3724,7 +3724,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 54.61 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abf401d5-7bda-431a-b00a-5ccbbb57d5c4)
-    (property "Reference" "SW?" (at 54.61 60.96 0)
+    (property "Reference" "SW1" (at 54.61 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 54.61 63.5 0)
@@ -3741,7 +3741,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "SW?") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -3750,7 +3750,7 @@
   (symbol (lib_id "Device:C") (at 63.5 105.41 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae3e16f4-54bd-4c19-874c-b2314f658117)
-    (property "Reference" "C?" (at 67.31 104.14 0)
+    (property "Reference" "C13" (at 67.31 104.14 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22u" (at 67.31 106.68 0)
@@ -3767,7 +3767,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "C?") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -3776,7 +3776,7 @@
   (symbol (lib_id "Device:R") (at 372.11 59.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae916d6b-0797-4493-86bd-03d4f84d1e86)
-    (property "Reference" "R?" (at 374.65 58.42 0)
+    (property "Reference" "R7" (at 374.65 58.42 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 374.65 60.96 0)
@@ -3793,7 +3793,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "R?") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -3802,7 +3802,7 @@
   (symbol (lib_id "Device:C") (at 252.73 69.85 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af7d9fca-bf12-413a-9a6d-d414060f7e72)
-    (property "Reference" "C?" (at 256.54 68.58 0)
+    (property "Reference" "C5" (at 256.54 68.58 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 256.54 71.12 0)
@@ -3819,7 +3819,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "C?") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -3828,7 +3828,7 @@
   (symbol (lib_id "Device:LED") (at 386.08 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1c1ce10-d730-46b5-95e6-84b9e0624501)
-    (property "Reference" "D?" (at 389.89 67.6275 90)
+    (property "Reference" "D3" (at 389.89 67.6275 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 389.89 70.1675 90)
@@ -3845,7 +3845,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "D?") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -3854,7 +3854,7 @@
   (symbol (lib_id "Device:D") (at 62.23 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1d7a7f0-5513-4e98-8dd7-ee7648748c8f)
-    (property "Reference" "D?" (at 62.23 134.62 0)
+    (property "Reference" "D4" (at 62.23 134.62 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 62.23 137.16 0)
@@ -3877,7 +3877,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "D?") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -3886,7 +3886,7 @@
   (symbol (lib_id "Device:C") (at 43.18 26.67 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3d19aa7-13e9-430e-8679-2bbaec91c41f)
-    (property "Reference" "C?" (at 43.18 19.05 90)
+    (property "Reference" "C1" (at 43.18 19.05 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "20p" (at 43.18 21.59 90)
@@ -3903,7 +3903,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "C?") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -3912,7 +3912,7 @@
   (symbol (lib_id "Regulator_Linear:ME6206A33M3G") (at 54.61 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4b1c966-ae05-43ed-aa50-9a917d978df4)
-    (property "Reference" "U?" (at 54.61 93.98 0)
+    (property "Reference" "U3" (at 54.61 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ME6206A33M3G" (at 54.61 96.52 0)
@@ -3930,7 +3930,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "U?") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -3939,7 +3939,7 @@
   (symbol (lib_id "power:GND") (at 40.64 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4fcbd2d-dc82-4848-bd32-42fce6aee90b)
-    (property "Reference" "#PWR011" (at 40.64 82.55 0)
+    (property "Reference" "#PWR018" (at 40.64 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.64 81.28 0)
@@ -3955,7 +3955,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -3964,7 +3964,7 @@
   (symbol (lib_id "Device:C") (at 35.56 151.13 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b708783d-ef7d-4fd1-96a1-03d67d09b5d5)
-    (property "Reference" "C?" (at 39.37 149.86 0)
+    (property "Reference" "C19" (at 39.37 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 39.37 152.4 0)
@@ -3981,7 +3981,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "C?") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -3990,7 +3990,7 @@
   (symbol (lib_id "power:+BATT") (at 308.61 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bbac0e3a-1721-4335-8b45-3e9bf8198616)
-    (property "Reference" "#PWR029" (at 308.61 53.34 0)
+    (property "Reference" "#PWR010" (at 308.61 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 308.61 44.45 0)
@@ -4006,7 +4006,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -4015,7 +4015,7 @@
   (symbol (lib_id "Device:R") (at 191.77 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd888ed6-8a7b-4ef7-be2c-31221d5ef656)
-    (property "Reference" "R?" (at 187.96 55.88 90)
+    (property "Reference" "R4" (at 187.96 55.88 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 193.04 55.88 90)
@@ -4032,7 +4032,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "R?") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -4041,7 +4041,7 @@
   (symbol (lib_id "power:GND") (at 203.2 62.23 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be087ac2-e880-46dd-938a-4284f80abcae)
-    (property "Reference" "#PWR024" (at 196.85 62.23 0)
+    (property "Reference" "#PWR016" (at 196.85 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 199.39 62.23 90)
@@ -4057,7 +4057,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -4066,7 +4066,7 @@
   (symbol (lib_id "power:+BATT") (at 255.27 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c19c3bf3-b519-45b8-824b-f3a85d2cfa10)
-    (property "Reference" "#PWR034" (at 255.27 102.87 0)
+    (property "Reference" "#PWR021" (at 255.27 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 255.27 93.98 0)
@@ -4082,7 +4082,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -4091,7 +4091,7 @@
   (symbol (lib_id "Device:R") (at 191.77 40.64 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c223b908-bf74-4ac2-b1e0-8d115e01f542)
-    (property "Reference" "R?" (at 194.31 39.37 0)
+    (property "Reference" "R3" (at 194.31 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7k" (at 194.31 41.91 0)
@@ -4108,7 +4108,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "R?") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -4117,7 +4117,7 @@
   (symbol (lib_id "power:GND") (at 111.76 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c559e3c0-c9a6-41df-b229-daae04dddddf)
-    (property "Reference" "#PWR013" (at 111.76 114.3 0)
+    (property "Reference" "#PWR025" (at 111.76 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 113.03 0)
@@ -4133,7 +4133,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -4142,7 +4142,7 @@
   (symbol (lib_id "power:GND") (at 187.96 53.34 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c7cd3a78-9419-47ff-a700-197b03b6faa4)
-    (property "Reference" "#PWR025" (at 181.61 53.34 0)
+    (property "Reference" "#PWR011" (at 181.61 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 184.15 53.34 90)
@@ -4158,7 +4158,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -4167,7 +4167,7 @@
   (symbol (lib_id "Device:R") (at 181.61 40.64 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc310b12-5ca3-4c4c-aaa0-62cd71d95d42)
-    (property "Reference" "R?" (at 184.15 39.37 0)
+    (property "Reference" "R2" (at 184.15 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7k" (at 184.15 41.91 0)
@@ -4184,7 +4184,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "R?") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -4193,7 +4193,7 @@
   (symbol (lib_id "power:GND") (at 58.42 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce3106c9-4a8d-4387-9509-795c1a3cb782)
-    (property "Reference" "#PWR016" (at 58.42 167.64 0)
+    (property "Reference" "#PWR039" (at 58.42 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 58.42 166.37 0)
@@ -4209,7 +4209,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -4218,7 +4218,7 @@
   (symbol (lib_id "Device:Crystal_GND24") (at 46.99 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cfcbcba7-1c6c-40a2-8278-e70c6740cfdd)
-    (property "Reference" "Y?" (at 53.34 35.4077 90)
+    (property "Reference" "Y1" (at 53.34 35.4077 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "8M" (at 53.34 37.9477 90)
@@ -4237,7 +4237,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "Y?") (unit 1)
+          (reference "Y1") (unit 1)
         )
       )
     )
@@ -4246,7 +4246,7 @@
   (symbol (lib_id "Device:R") (at 171.45 153.67 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7eaa0d0-d545-4acc-9dbf-028b0c8668f7)
-    (property "Reference" "R?" (at 171.45 147.32 90)
+    (property "Reference" "R17" (at 171.45 147.32 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10" (at 171.45 149.86 90)
@@ -4263,7 +4263,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "R?") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -4272,7 +4272,7 @@
   (symbol (lib_id "Device:C") (at 40.64 105.41 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da956bd7-1657-4208-813b-f603f5b4dfc4)
-    (property "Reference" "C?" (at 44.45 104.14 0)
+    (property "Reference" "C12" (at 44.45 104.14 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 44.45 106.68 0)
@@ -4289,7 +4289,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "C?") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -4298,7 +4298,7 @@
   (symbol (lib_id "Device:R") (at 358.14 59.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd92c17e-17f0-4af8-be7a-4783b69f25a9)
-    (property "Reference" "R?" (at 360.68 58.42 0)
+    (property "Reference" "R6" (at 360.68 58.42 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 360.68 60.96 0)
@@ -4315,7 +4315,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "R?") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -4324,7 +4324,7 @@
   (symbol (lib_id "power:GND") (at 82.55 76.2 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df1a534a-df7b-4062-b7bd-f6f1b0b5d923)
-    (property "Reference" "#PWR04" (at 76.2 76.2 0)
+    (property "Reference" "#PWR019" (at 76.2 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.74 76.2 90)
@@ -4340,7 +4340,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -4349,7 +4349,7 @@
   (symbol (lib_id "power:GND") (at 137.16 35.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e461ca14-7d53-4db0-aa9a-353cf2d86de8)
-    (property "Reference" "#PWR07" (at 143.51 35.56 0)
+    (property "Reference" "#PWR05" (at 143.51 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.97 35.56 90)
@@ -4365,7 +4365,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -4374,7 +4374,7 @@
   (symbol (lib_id "power:+5V") (at 40.64 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5272d6d-15e6-452b-bb6c-a42dd7f008ea)
-    (property "Reference" "#PWR027" (at 40.64 105.41 0)
+    (property "Reference" "#PWR024" (at 40.64 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 40.64 96.52 0)
@@ -4390,7 +4390,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -4399,7 +4399,7 @@
   (symbol (lib_id "power:+3.3V") (at 323.85 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e59f99f2-410a-4384-bf97-e122fc3d2f77)
-    (property "Reference" "#PWR032" (at 323.85 135.89 0)
+    (property "Reference" "#PWR030" (at 323.85 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 323.85 127 0)
@@ -4415,7 +4415,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -4424,7 +4424,7 @@
   (symbol (lib_id "Device:C") (at 46.99 151.13 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e807b086-e79e-49dd-92d6-ed556bbd71ef)
-    (property "Reference" "C?" (at 50.8 149.86 0)
+    (property "Reference" "C20" (at 50.8 149.86 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22u" (at 50.8 152.4 0)
@@ -4441,7 +4441,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "C?") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -4450,7 +4450,7 @@
   (symbol (lib_id "power:+BATT") (at 189.23 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ebecdff7-eee5-4666-b761-912deb991724)
-    (property "Reference" "#PWR035" (at 189.23 142.24 0)
+    (property "Reference" "#PWR032" (at 189.23 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 189.23 133.35 0)
@@ -4466,7 +4466,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -4475,7 +4475,7 @@
   (symbol (lib_id "power:GND") (at 308.61 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f48d25c2-8bf2-4250-a572-b8de5f1da42d)
-    (property "Reference" "#PWR030" (at 308.61 74.93 0)
+    (property "Reference" "#PWR017" (at 308.61 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 308.61 73.66 0)
@@ -4491,7 +4491,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -4500,7 +4500,7 @@
   (symbol (lib_id "power:GND") (at 228.6 33.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4be62e0-5318-4757-80db-f24a86ce52b2)
-    (property "Reference" "#PWR023" (at 234.95 33.02 0)
+    (property "Reference" "#PWR04" (at 234.95 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 232.41 33.02 90)
@@ -4516,7 +4516,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -4525,7 +4525,7 @@
   (symbol (lib_id "Device:R") (at 245.11 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6867e0b-5386-4f70-8626-92789a8892ad)
-    (property "Reference" "R?" (at 248.92 116.84 0)
+    (property "Reference" "R13" (at 248.92 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 248.92 119.38 0)
@@ -4542,7 +4542,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "R?") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -4551,7 +4551,7 @@
   (symbol (lib_id "power:+BATT") (at 119.38 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f818da86-2852-4ee2-ac2b-6e59cb452af3)
-    (property "Reference" "#PWR017" (at 119.38 148.59 0)
+    (property "Reference" "#PWR036" (at 119.38 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 119.38 139.7 0)
@@ -4567,7 +4567,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -4576,7 +4576,7 @@
   (symbol (lib_id "power:+5V") (at 46.99 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9f80f0c-b5a1-4b67-9e38-e215e7de3851)
-    (property "Reference" "#PWR026" (at 46.99 144.78 0)
+    (property "Reference" "#PWR034" (at 46.99 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 46.99 135.89 0)
@@ -4592,7 +4592,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -4601,7 +4601,7 @@
   (symbol (lib_id "power:GND") (at 255.27 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa128763-f4a8-4693-9e47-fc276cf44ee3)
-    (property "Reference" "#PWR033" (at 255.27 128.27 0)
+    (property "Reference" "#PWR027" (at 255.27 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 255.27 127 0)
@@ -4617,7 +4617,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -4626,7 +4626,7 @@
   (symbol (lib_id "power:GND") (at 118.11 33.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa2e94ab-7958-4ddd-8202-7b3cc32fde93)
-    (property "Reference" "#PWR05" (at 124.46 33.02 0)
+    (property "Reference" "#PWR03" (at 124.46 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 121.92 33.02 90)
@@ -4642,7 +4642,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -4651,7 +4651,7 @@
   (symbol (lib_id "Device:LED") (at 358.14 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc9b9a52-2c52-46ea-91be-a8ceea0f344c)
-    (property "Reference" "D?" (at 361.95 67.6275 90)
+    (property "Reference" "D1" (at 361.95 67.6275 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 361.95 70.1675 90)
@@ -4668,7 +4668,7 @@
     (instances
       (project "飞控"
         (path "/0b17fc7a-19aa-4701-97db-0d54d67dcc4e"
-          (reference "D?") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
