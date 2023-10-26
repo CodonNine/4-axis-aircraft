@@ -2053,6 +2053,9 @@
   (junction (at 106.68 53.34) (diameter 0) (color 0 0 0 0)
     (uuid e0e9bc32-d4f6-4d74-ac9f-be1a1ca00436)
   )
+  (junction (at 41.91 187.96) (diameter 0) (color 0 0 0 0)
+    (uuid e2db2ae5-d487-489a-bdf4-55c221272b7c)
+  )
   (junction (at 115.57 26.67) (diameter 0) (color 0 0 0 0)
     (uuid e6e6513b-4a7b-4e33-9a47-9a3d14a9e941)
   )
@@ -2073,35 +2076,32 @@
   )
 
   (no_connect (at 57.15 177.8) (uuid 1105299c-2664-4e5d-bc2d-62b6f24e7cf6))
-  (no_connect (at 68.58 64.77) (uuid 120d69c9-e0a8-4e6e-b17d-8cc44193c1d3))
   (no_connect (at 68.58 39.37) (uuid 13c0c1a8-a223-47f3-a66c-90e603e52a4f))
   (no_connect (at 33.02 87.63) (uuid 21b2d87e-7675-4ed3-9286-8e825cc7e97b))
   (no_connect (at 93.98 162.56) (uuid 2a1d71a2-6bff-46d4-97d9-9c86a593a070))
-  (no_connect (at 34.29 187.96) (uuid 2b327925-7933-499e-8dc9-99725d4281a4))
   (no_connect (at 49.53 259.08) (uuid 2b4c4e69-01a1-4098-89c7-7d94f656d6a3))
   (no_connect (at 68.58 44.45) (uuid 2c0e3bcb-db58-4365-9ce7-26532c8b01a3))
   (no_connect (at 68.58 74.93) (uuid 314eaba0-8ca5-485f-b67c-a747e422f1b5))
-  (no_connect (at 33.02 72.39) (uuid 40d1c9f6-37e8-490e-85df-3948227487f6))
   (no_connect (at 350.52 25.4) (uuid 41e3dda4-cc82-4e01-ae35-57e45631618e))
-  (no_connect (at 68.58 59.69) (uuid 50db65e0-3af3-4311-8d34-c6e8fb6b6942))
   (no_connect (at 350.52 27.94) (uuid 5102f99d-f246-494c-bc35-4436bb412d7d))
-  (no_connect (at 68.58 62.23) (uuid 5882be76-1c06-4b2f-9c3e-06b7c3585071))
+  (no_connect (at 33.02 69.85) (uuid 59d092ff-9835-40a0-9aeb-a564039177da))
+  (no_connect (at 33.02 72.39) (uuid 6284e9ef-5f8b-46c1-9f7c-16b24c78ffaa))
   (no_connect (at 105.41 250.19) (uuid 7e38ec21-0ec1-4080-a640-a40897da556c))
   (no_connect (at 68.58 57.15) (uuid 7fa23619-2b7d-46bf-93bd-12dbd4044516))
+  (no_connect (at 33.02 67.31) (uuid 80b6ee0b-5a74-491e-b353-5870bec86a16))
   (no_connect (at 350.52 45.72) (uuid 81ea8ad3-d5bb-4c0b-9f83-f17dbe0cba30))
-  (no_connect (at 68.58 100.33) (uuid 81fd66ce-0e94-4b04-860d-1b838744c0a9))
+  (no_connect (at 68.58 95.25) (uuid 81fd66ce-0e94-4b04-860d-1b838744c0a9))
+  (no_connect (at 33.02 64.77) (uuid 93e513a4-476c-4ddd-87e9-141ff46c723f))
   (no_connect (at 33.02 85.09) (uuid 9a1c58f6-2588-4e8c-a43c-0973bad586cb))
   (no_connect (at 303.53 40.64) (uuid a2fdc3da-ba2c-4a4e-bcc6-0510895033c3))
   (no_connect (at 68.58 49.53) (uuid aa36fb0b-f3f8-4ba0-9998-3e67fa10a551))
-  (no_connect (at 33.02 82.55) (uuid aacc876b-8371-43fe-bae1-e164fcb225a8))
-  (no_connect (at 33.02 69.85) (uuid ad2898b4-67cd-451f-a8e7-4af6f5c9aa38))
+  (no_connect (at 33.02 80.01) (uuid ac85aac6-77db-4bcb-983d-e14acf04aee7))
   (no_connect (at 226.06 31.75) (uuid adc6b7fa-dcb3-47b5-b7ed-e39b8c0000f2))
-  (no_connect (at 33.02 64.77) (uuid b76c5bd2-5d25-4637-acc2-1fc186a28216))
   (no_connect (at 313.69 39.37) (uuid b7edc7ed-096d-4ee8-af5f-08351aa7987f))
   (no_connect (at 57.15 180.34) (uuid b80c88e4-1043-47c6-85ac-3cb4536791bb))
-  (no_connect (at 68.58 97.79) (uuid ca246d37-9498-4320-a924-17949c10f005))
+  (no_connect (at 68.58 92.71) (uuid ca246d37-9498-4320-a924-17949c10f005))
+  (no_connect (at 33.02 82.55) (uuid ca2fd412-20c3-4a15-a990-35cc61b61ff9))
   (no_connect (at 313.69 36.83) (uuid e4207ed4-aec2-4554-9aa5-f64a24f80b47))
-  (no_connect (at 33.02 67.31) (uuid e622b0d2-18bc-41ea-83b7-923683682c6c))
 
   (wire (pts (xy 124.46 102.87) (xy 115.57 102.87))
     (stroke (width 0) (type default))
@@ -2375,6 +2375,10 @@
     (stroke (width 0) (type default))
     (uuid add2276d-ce92-494d-b899-00c99ce92a06)
   )
+  (wire (pts (xy 34.29 187.96) (xy 41.91 187.96))
+    (stroke (width 0) (type default))
+    (uuid afc2404c-2110-4856-9e1c-2237a9c4fd46)
+  )
   (wire (pts (xy 106.68 53.34) (xy 113.03 53.34))
     (stroke (width 0) (type default))
     (uuid b00a1e96-251b-4c74-a41c-7a5e4eaa0d05)
@@ -2426,6 +2430,10 @@
   (wire (pts (xy 214.63 203.2) (xy 226.06 203.2))
     (stroke (width 0) (type default))
     (uuid c215aa61-adbf-4ac7-9c62-cd81fa565e08)
+  )
+  (wire (pts (xy 41.91 189.23) (xy 41.91 187.96))
+    (stroke (width 0) (type default))
+    (uuid c270ce73-ac52-4467-9822-51746662d35a)
   )
   (wire (pts (xy 115.57 26.67) (xy 128.27 26.67))
     (stroke (width 0) (type default))
@@ -2524,9 +2532,9 @@
     (uuid ff08899d-9f5e-428f-ab3e-0259fa5e64a6)
   )
 
-  (label "S4" (at 33.02 80.01 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 0048bea5-4aaa-474d-baff-38c50003cadb)
+  (label "SWCLK" (at 293.37 76.2 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 025a33bc-9d3a-4ea4-9a2b-a992ec7bb801)
   )
   (label "S7" (at 260.35 213.36 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2552,6 +2560,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 18dc064a-8702-452f-807d-d288f6e7966f)
   )
+  (label "SWCLK" (at 68.58 64.77 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1e679c28-1639-4ac5-b34b-8a716b80e39c)
+  )
   (label "S8" (at 68.58 85.09 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 20385108-798d-4f95-98bb-0fe4902f31b9)
@@ -2568,9 +2580,13 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 28a3c341-f37d-4d9e-9e3c-c270b7e0e074)
   )
-  (label "S7" (at 68.58 82.55 0) (fields_autoplaced)
+  (label "S7" (at 68.58 80.01 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2ef683fb-2fd5-4cda-bd62-8b62bc5ec132)
+  )
+  (label "S4" (at 33.02 74.93 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 312fb5b3-43fd-4ff3-af1b-d1285e460d36)
   )
   (label "SPI1_SDA" (at 350.52 30.48 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -2596,7 +2612,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4b3a4716-6c5e-414a-8bd0-062b96ba5509)
   )
-  (label "S6" (at 68.58 80.01 0) (fields_autoplaced)
+  (label "S6" (at 68.58 82.55 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4c49b01b-bfdb-4203-a2cc-e61f72b573e3)
   )
@@ -2611,10 +2627,6 @@
   (label "CE" (at 311.15 151.13 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 5336a7e2-0f97-4092-985e-4b2397b71b86)
-  )
-  (label "S1" (at 68.58 67.31 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 5ba971e1-70bc-469b-9e1d-c2e45158b96c)
   )
   (label "OSC_OUT" (at 33.02 41.91 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -2636,8 +2648,8 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 690b6502-14a2-4ea7-b172-b2a945b755cc)
   )
-  (label "S5" (at 33.02 44.45 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+  (label "S5" (at 68.58 87.63 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6a595a48-9f43-4a34-be83-18f5b288e96f)
   )
   (label "S1" (at 191.77 213.36 0) (fields_autoplaced)
@@ -2648,6 +2660,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 762e7f42-2ea3-4335-b8ed-e174a6742b01)
   )
+  (label "SWDIO" (at 68.58 62.23 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 765b15f3-8be2-4e84-9af9-655edff3a1b1)
+  )
   (label "USART2_TX" (at 311.15 146.05 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 771afba8-303e-4948-9779-54a1eb23ff1a)
@@ -2655,6 +2671,14 @@
   (label "S12" (at 317.5 213.36 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 78104107-c293-43dc-9615-9c5a6714d81a)
+  )
+  (label "S2" (at 68.58 67.31 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7b192b21-4481-4aac-a1f6-0c6be14e4973)
+  )
+  (label "SWDIO" (at 293.37 68.58 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7b83f0d5-3112-4e8c-b93b-a6ce5ec609da)
   )
   (label "RES" (at 33.02 62.23 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -2672,7 +2696,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8710d5eb-2f47-4717-83a8-7419c8a89992)
   )
-  (label "S12" (at 68.58 95.25 0) (fields_autoplaced)
+  (label "S12" (at 68.58 97.79 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 88ab80da-ce98-4462-bc83-e4641dd53e3f)
   )
@@ -2704,17 +2728,13 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 960f28fa-e0e2-4306-94a7-e7adbce71f1f)
   )
-  (label "SPI2_SCL" (at 350.52 33.02 180) (fields_autoplaced)
+  (label "SPI1_SCL" (at 350.52 33.02 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9693b685-6d71-4889-b445-7852f498e6c9)
   )
   (label "AD_BATT" (at 33.02 49.53 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9a632275-7f77-4adb-b1dd-ac555a8402e6)
-  )
-  (label "S3" (at 33.02 77.47 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 9ae51cd7-a2c0-495f-b261-aa5df2563eae)
   )
   (label "S9" (at 283.21 213.36 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2732,17 +2752,13 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid aa4ee036-62f8-472e-a7dc-3003750d7bb6)
   )
-  (label "S9" (at 68.58 87.63 0) (fields_autoplaced)
+  (label "S9" (at 68.58 90.17 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ab793d98-7255-4686-a7bb-10ac8aee8c0f)
   )
   (label "OSC_IN" (at 99.06 102.87 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ac729da7-7231-493c-a694-6381e4f75b9e)
-  )
-  (label "S2" (at 33.02 74.93 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid af149fff-f730-499c-a1b6-a5c31d52ca8e)
   )
   (label "FB" (at 195.58 44.45 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2764,6 +2780,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c0ce51a6-2c16-4418-9dbe-c01d5e38d318)
   )
+  (label "S3" (at 33.02 77.47 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid c239eb2e-4a59-4a5f-b04f-5d74e5aff2a8)
+  )
   (label "S4" (at 226.06 213.36 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c3c69ef1-4e5f-43d6-ac61-cbf892a23eef)
@@ -2780,15 +2800,23 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c89d5e4e-01a6-4a94-8dcc-6a404ecef2e9)
   )
-  (label "S10" (at 68.58 90.17 0) (fields_autoplaced)
+  (label "S1" (at 68.58 59.69 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid cb9e664e-bcc7-40c7-9bc3-f93697815ade)
+  )
+  (label "SW" (at 207.01 31.75 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid cba5ab6b-b9bb-486b-8a71-57505847b44b)
+  )
+  (label "S10" (at 33.02 44.45 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid ce1c9e96-e218-4c06-aa80-00b392518c16)
   )
   (label "OSC_IN" (at 33.02 39.37 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d7c463a2-90cc-4608-8507-6975742e03d1)
   )
-  (label "S11" (at 68.58 92.71 0) (fields_autoplaced)
+  (label "S11" (at 68.58 100.33 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d7fe8844-1a85-4297-8fee-9b1a7756c2be)
   )
@@ -2852,8 +2880,8 @@
     (property "Datasheet" "~" (at 255.27 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fcecb5ef-c153-4b74-a2d9-19809409ce92))
-    (pin "2" (uuid 8b7f0613-399a-4338-85bc-7b3e90d059d0))
+    (pin "1" (uuid 44ad2081-70d8-4c21-9279-e6e2d169ace0))
+    (pin "2" (uuid d0e2823e-30d7-4c56-a4f3-78906def4af1))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -2878,7 +2906,7 @@
     (property "Datasheet" "" (at 181.61 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2af4e45b-d1e3-4378-a144-6a2d2a53391b))
+    (pin "1" (uuid 9fc252c0-e441-46ec-bffe-0be64a5c73e5))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -2903,7 +2931,7 @@
     (property "Datasheet" "" (at 207.01 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dd87ebe2-dac7-442e-a181-1e309fd7aa9b))
+    (pin "1" (uuid 5048afcc-5007-4fe6-a277-f73b23ffaa24))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -2928,7 +2956,7 @@
     (property "Datasheet" "" (at 350.52 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6344b145-cd44-46de-a47c-c88ef9f464d8))
+    (pin "1" (uuid 23793036-4199-4aad-9dfa-8342bc033d82))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -2953,10 +2981,10 @@
     (property "Datasheet" "~" (at 111.76 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8e3aa8d9-63c9-4f52-b72b-a3d91af57ce1))
-    (pin "2" (uuid bcafc028-f40d-47d0-8ae8-0677cb4d2273))
-    (pin "3" (uuid 44760338-aa7f-4762-a3f8-9d337994a010))
-    (pin "4" (uuid a39ddeb5-0cbd-4fbc-965c-998ff0110cf6))
+    (pin "1" (uuid fc00452b-d6c8-42e1-9307-995913a21c3d))
+    (pin "2" (uuid d81e4e66-e36a-482d-af0a-7c293e304671))
+    (pin "3" (uuid e089866f-d842-409d-9959-a0796330437f))
+    (pin "4" (uuid e6fa3e34-d3d2-4055-9e38-7a3c202f0a49))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -2981,8 +3009,8 @@
     (property "Datasheet" "~" (at 187.96 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4face9ad-6db4-482c-bc46-dc23343fea1f))
-    (pin "2" (uuid 0fd00fc2-880b-4d45-90a5-c1e873a7cd4d))
+    (pin "1" (uuid f8b95659-35b1-409a-a76e-3041c9ab76c3))
+    (pin "2" (uuid 11683070-06e2-491e-a8bf-db42cf413392))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3007,8 +3035,8 @@
     (property "Datasheet" "~" (at 312.42 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 473c8012-52b6-4265-bc1d-a08908b74158))
-    (pin "2" (uuid 2785e969-5960-49ca-aa83-8b099f5820c7))
+    (pin "1" (uuid 561be541-b4e9-4bda-93de-2f1a27bdec51))
+    (pin "2" (uuid f0891ebc-c57a-424a-a71a-596468c3bbbb))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3033,8 +3061,8 @@
     (property "Datasheet" "~" (at 81.28 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7d4f34c9-1c5b-4b2e-93e1-9b61f97b2813))
-    (pin "2" (uuid 93e0dadd-df3b-4b10-aed0-bcb8f6f915d1))
+    (pin "1" (uuid 5e79ea37-24da-467e-ab02-a107ffa1c914))
+    (pin "2" (uuid 92e53ba2-1f8b-4020-9713-b46ef7ec73ff))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3059,8 +3087,8 @@
     (property "Datasheet" "~" (at 186.69 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 446c8643-33a1-4a40-8ac2-b12d6b7c4018))
-    (pin "2" (uuid 18d69637-40c9-4dd9-99ee-9bee0237dce7))
+    (pin "1" (uuid 19c346d3-3de0-468a-aad2-18f19583eccf))
+    (pin "2" (uuid a1ff13bf-ae7b-474e-862b-3a225f14df35))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3073,7 +3101,7 @@
   (symbol (lib_id "power:GND") (at 128.27 154.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 136e015c-365a-4a3b-b52a-f9f00b1db42b)
-    (property "Reference" "#PWR040" (at 134.62 154.94 0)
+    (property "Reference" "#PWR042" (at 134.62 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 154.94 90)
@@ -3085,11 +3113,11 @@
     (property "Datasheet" "" (at 128.27 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ac993baa-5ea4-4b0e-b9d5-890491b1cd8d))
+    (pin "1" (uuid 827f7004-327d-4898-8380-c8a5883a6e84))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -3110,7 +3138,7 @@
     (property "Datasheet" "" (at 113.03 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bd4085c5-b959-4770-ac3b-70ea38f14e68))
+    (pin "1" (uuid ac106907-f69f-42b7-b059-128e1ad20cd9))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3135,8 +3163,8 @@
     (property "Datasheet" "~" (at 128.27 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 905d72ce-7d76-4355-bcdc-040950e8b64d))
-    (pin "2" (uuid 04a53287-df8a-48d7-a287-875ded6f1799))
+    (pin "1" (uuid 905ef814-486e-4ea7-afcf-8c28b156e075))
+    (pin "2" (uuid 3c73e743-f3e8-40ab-9dd9-1c699e16448b))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3161,7 +3189,7 @@
     (property "Datasheet" "" (at 128.27 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 75370dca-9663-458f-9321-e77f024293d4))
+    (pin "1" (uuid ac76f481-86ad-4b4b-a342-da339d8a2326))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3186,8 +3214,8 @@
     (property "Datasheet" "~" (at 266.7 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b9c5fdde-c375-4957-80b1-53a1d535397f))
-    (pin "2" (uuid 3a9348bd-3cfa-40cc-aa6f-a75b725558e6))
+    (pin "1" (uuid a51ee9f5-a9f2-44f4-bcdb-ffb5ac72c753))
+    (pin "2" (uuid c36f37d4-09c2-44ef-8b48-09f419a23764))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3200,7 +3228,7 @@
   (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 41.91 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 240cec15-5bbd-42c7-933b-944cb63d8e88)
-    (property "Reference" "J3" (at 41.91 142.24 0)
+    (property "Reference" "J7" (at 41.91 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C_Receptacle_USB2.0" (at 41.91 144.78 0)
@@ -3212,27 +3240,27 @@
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (at 45.72 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A1" (uuid 42cc7aa5-5654-4316-9f87-740e254ee9da))
-    (pin "A12" (uuid d5eec3ea-db62-4f18-8738-7b2857516ac0))
-    (pin "A4" (uuid 6cd2046f-5049-498d-8bf9-e855f7efadca))
-    (pin "A5" (uuid c1432041-d1e8-4b35-b15f-e62f88293403))
-    (pin "A6" (uuid 8c1d163e-9b2a-4441-88d7-8830b3ed4b1b))
-    (pin "A7" (uuid 825808aa-2037-4f17-82f6-9d2c2430c83d))
-    (pin "A8" (uuid 2713234b-2358-4423-87bc-1e5e70c0c7dc))
-    (pin "A9" (uuid c9b3528c-649e-43db-bd4e-23e24537b9a5))
-    (pin "B1" (uuid 5563c1a0-791d-4d04-9dc0-1b35f9518947))
-    (pin "B12" (uuid 3391545b-3928-4af0-8a32-0b0e1f7f4827))
-    (pin "B4" (uuid 4cd79fd3-e355-485c-8cf0-b8e26df5a0a6))
-    (pin "B5" (uuid d576546c-71a8-48b5-86c3-93e271aa18cc))
-    (pin "B6" (uuid b89a0858-cd92-43d0-baf8-a60400ce7275))
-    (pin "B7" (uuid 397672ff-c651-4968-b16d-e6122354aee3))
-    (pin "B8" (uuid fbf58fc2-b8f4-4285-a3e9-3b008ce0a447))
-    (pin "B9" (uuid bea77aec-20d2-487c-aef9-dd4d180185bb))
-    (pin "S1" (uuid 85c59bf6-7937-4328-888a-19d4b973e44b))
+    (pin "A1" (uuid 705dcfef-34ba-45a2-a545-657efc837d70))
+    (pin "A12" (uuid 1c6bd6be-b88e-46eb-af32-8ed6ad583ec5))
+    (pin "A4" (uuid 13e214a6-0557-4bea-aa46-62ab09b685bc))
+    (pin "A5" (uuid 2fb01a5a-ee8e-4506-a694-905303ff26cd))
+    (pin "A6" (uuid d220e6d8-04fc-4313-b029-e328ea9b68b8))
+    (pin "A7" (uuid 2e9a875b-6740-4a2d-b881-80d451d7f0a6))
+    (pin "A8" (uuid 94ffbb74-dd1b-424c-ad4e-1f91bfe1feed))
+    (pin "A9" (uuid f46b7401-4b5f-4d8c-955d-44775f93e85b))
+    (pin "B1" (uuid 2717d440-bd44-4c49-b073-92711a28726f))
+    (pin "B12" (uuid 21a00709-92f5-4508-a427-510f28e67b0e))
+    (pin "B4" (uuid fe376859-3070-4a8b-aa3f-bfc6bcf94a61))
+    (pin "B5" (uuid 38d1f259-7433-4d49-ac53-71b9c500742a))
+    (pin "B6" (uuid b5cd32a2-a3d1-4ddb-af2b-d099ba1cb5ed))
+    (pin "B7" (uuid e7cd85f2-0a99-424f-a00e-3d2eab593ee8))
+    (pin "B8" (uuid 2f6e9a4b-9724-4ac0-94d8-800cfed2c742))
+    (pin "B9" (uuid e587fc7a-53f9-43a7-a4da-c1ffbe41013a))
+    (pin "S1" (uuid 882c7ad0-f510-4cdb-985b-cb54efb20f03))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "J3") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -3253,7 +3281,7 @@
     (property "Datasheet" "" (at 234.95 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b6050ea1-a252-42ea-beb3-809e6e0086db))
+    (pin "1" (uuid 71acaecf-6219-43aa-b78c-dd0dca81f7b3))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3278,8 +3306,8 @@
     (property "Datasheet" "~" (at 102.87 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d4a369f1-95e0-4816-9cdc-558d6c3b02dc))
-    (pin "2" (uuid 1db849e6-0bac-4e4f-be49-6892c441350e))
+    (pin "1" (uuid 3b88060b-dcc1-4e84-9716-2499d6cead92))
+    (pin "2" (uuid cfc65a57-2de5-42b8-92ae-de9c1fd0a512))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3292,7 +3320,7 @@
   (symbol (lib_id "power:+3.3V") (at 284.48 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32f0c70c-69e0-4592-9610-fe983d0d5efe)
-    (property "Reference" "#PWR035" (at 284.48 144.78 0)
+    (property "Reference" "#PWR037" (at 284.48 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 284.48 135.89 0)
@@ -3304,11 +3332,11 @@
     (property "Datasheet" "" (at 284.48 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5ea7588c-3b46-4972-b712-85a045ed77fd))
+    (pin "1" (uuid 8298b91c-a72a-4207-9c75-0f7d5432e145))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -3329,8 +3357,8 @@
     (property "Datasheet" "~" (at 115.57 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6d9b34f4-cb94-4b58-bc88-e0498c1a4b2c))
-    (pin "2" (uuid a3a6f3b6-c8a1-4354-804c-2fe0f9b6acae))
+    (pin "1" (uuid 65907faf-e275-487e-b823-ce9251597628))
+    (pin "2" (uuid 66475288-e54c-4851-a1d8-3fb6a57f1f26))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3343,7 +3371,7 @@
   (symbol (lib_id "power:GND") (at 237.49 203.2 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d395c49-1825-4d12-9e96-23aeec50b947)
-    (property "Reference" "#PWR046" (at 237.49 196.85 0)
+    (property "Reference" "#PWR048" (at 237.49 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 237.49 198.12 0)
@@ -3355,11 +3383,11 @@
     (property "Datasheet" "" (at 237.49 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 413d17a8-e7b5-4378-a52a-c7e7769152fa))
+    (pin "1" (uuid bc0950b7-2af5-463c-82e0-7427819b7a71))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -3380,7 +3408,7 @@
     (property "Datasheet" "" (at 58.42 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bb7bd51f-a741-4dc2-9392-24c553888d0b))
+    (pin "1" (uuid 7521098f-5adf-4ed2-94ab-fba0723bd9a5))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3405,7 +3433,7 @@
     (property "Datasheet" "" (at 109.22 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid babecbe9-f4b3-4528-888c-80f5156aa966))
+    (pin "1" (uuid 3517a2a1-0e01-4055-8943-b9789a0c964c))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3430,8 +3458,8 @@
     (property "Datasheet" "~" (at 209.55 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1344c5f5-1041-4102-8162-658062f604d4))
-    (pin "2" (uuid ec0341fb-444c-4945-b859-639a14692530))
+    (pin "1" (uuid 66a9231b-b75f-4cc1-ba8d-c8b5423f1193))
+    (pin "2" (uuid 0f43acb7-bc8c-423c-bf6c-5773dabaff9f))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3456,8 +3484,8 @@
     (property "Datasheet" "~" (at 266.7 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e6c217b7-9c41-4205-92c4-9f1e780c41ba))
-    (pin "2" (uuid f228ee30-cc4a-434d-ac94-12e94353fa16))
+    (pin "1" (uuid b06b2373-26db-407f-ab3e-963b409bb86e))
+    (pin "2" (uuid cb23e483-7c58-41eb-b875-a575663b9036))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3482,7 +3510,7 @@
     (property "Datasheet" "" (at 87.63 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 846c3b7a-ce17-40d4-8c8f-27508175d6fb))
+    (pin "1" (uuid 3fba1464-fb4f-433a-a389-0ae898e5b4c1))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3507,8 +3535,8 @@
     (property "Datasheet" "~" (at 124.46 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 896a92a0-319d-4b03-9776-75371b8255cf))
-    (pin "2" (uuid 2d32bc87-ac08-4d90-a0c4-83b265002e60))
+    (pin "1" (uuid 2c17c455-4b86-4aaf-8eec-56bbd143b789))
+    (pin "2" (uuid 425f9ae0-1bb0-4437-8a43-450d59d21f55))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3533,8 +3561,8 @@
     (property "Datasheet" "~" (at 113.03 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 080cabf5-37b1-41e5-9eee-1288572d25d1))
-    (pin "2" (uuid 24e4cf93-7d8f-4a8e-b7bc-0bb92f1c0a98))
+    (pin "1" (uuid f02c64da-fef1-45b5-96ff-10bbde600f94))
+    (pin "2" (uuid c11ffe32-dcfc-4d4e-9f39-875360799922))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3559,8 +3587,8 @@
     (property "Datasheet" "~" (at 278.13 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7c22a280-0498-48be-8f53-55fb299d5771))
-    (pin "2" (uuid 31f92e97-9cfb-42a3-bed3-f8d485365495))
+    (pin "1" (uuid 5505b1b8-0e4d-4e1c-9f5f-d39c51637ba5))
+    (pin "2" (uuid 63a7e077-8fc1-4a43-b958-7111784178f5))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3570,10 +3598,35 @@
     )
   )
 
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 288.29 76.2 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4cf0c17d-3d66-459f-9604-b281e8265e24)
+    (property "Reference" "J4" (at 288.925 71.12 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 288.925 73.66 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" (at 288.29 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 288.29 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 037d5869-f85b-4236-b078-fb0bd26efafd))
+    (instances
+      (project "遥控器"
+        (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
+          (reference "J4") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 95.25 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5131c164-95d0-491f-8397-fb310a7b8fca)
-    (property "Reference" "#PWR029" (at 95.25 92.71 0)
+    (property "Reference" "#PWR030" (at 95.25 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.25 91.44 0)
@@ -3585,11 +3638,11 @@
     (property "Datasheet" "" (at 95.25 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 53a3587a-5344-4880-8102-0d33a2c110cb))
+    (pin "1" (uuid 58700f25-b8f6-41af-82a9-e86297b6c6c2))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -3598,7 +3651,7 @@
   (symbol (lib_id "power:GND") (at 284.48 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 526d9d34-2e48-495c-95e7-f44d94befb48)
-    (property "Reference" "#PWR038" (at 284.48 156.21 0)
+    (property "Reference" "#PWR040" (at 284.48 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 284.48 154.94 0)
@@ -3610,11 +3663,11 @@
     (property "Datasheet" "" (at 284.48 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 103e35f7-9b0d-4c0a-ad54-581419bccdf4))
+    (pin "1" (uuid aa57efa9-54bd-4146-8d98-daa67144696b))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -3635,8 +3688,8 @@
     (property "Datasheet" "~" (at 99.06 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4f009b9f-9ca3-4b04-b2a3-2f9c3d726679))
-    (pin "2" (uuid 3540d7da-a16a-4de8-883d-7db855a06dea))
+    (pin "1" (uuid 5d938d96-5e9a-4a4d-9fb5-860f115b488f))
+    (pin "2" (uuid ea9544f6-8e5c-4e84-a988-55fe3364291c))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3646,10 +3699,35 @@
     )
   )
 
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 288.29 68.58 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 548d96b4-ffb0-456b-9d63-ebcbfb38a6a3)
+    (property "Reference" "J3" (at 288.925 63.5 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 288.925 66.04 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" (at 288.29 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 288.29 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 424c72df-fc3f-4ac3-910a-fadf7ab0f2c4))
+    (instances
+      (project "遥控器"
+        (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
+          (reference "J3") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 209.55 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59b1536a-f7ff-4232-b38c-a2f9eb85d410)
-    (property "Reference" "#PWR044" (at 209.55 168.91 0)
+    (property "Reference" "#PWR046" (at 209.55 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 209.55 166.37 90)
@@ -3661,11 +3739,11 @@
     (property "Datasheet" "" (at 209.55 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1a3e7ebd-be3a-46ad-97c4-13e2196e2e75))
+    (pin "1" (uuid ab8f0754-e910-4ebc-b784-dedd5b02e337))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -3686,7 +3764,7 @@
     (property "Datasheet" "" (at 52.07 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 37ca4563-7390-48b1-8be1-ace5f86c8193))
+    (pin "1" (uuid a6345fc1-df14-44e2-8c64-5f5617567725))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3711,8 +3789,8 @@
     (property "Datasheet" "~" (at 124.46 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 93bde568-626c-4bcc-8571-0c40c13d118f))
-    (pin "2" (uuid cfd6aeb2-eb8c-4af4-b638-abb0409fb210))
+    (pin "1" (uuid 89dc88d8-65e5-46ba-9bf2-8359834d6f83))
+    (pin "2" (uuid e36751e6-954b-469e-a2b6-e983ac30f6b1))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3743,8 +3821,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 201.93 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 87f014a6-f473-4b25-936b-4dc7f90d2c6b))
-    (pin "2" (uuid ab88336b-7c9c-4778-be7e-47b0ec678a23))
+    (pin "1" (uuid 2a0e47ef-ad59-4267-b6df-cfd70ddbbb2b))
+    (pin "2" (uuid f69a3273-a768-44ff-a553-3dfdc95340eb))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3757,7 +3835,7 @@
   (symbol (lib_id "power:GND") (at 41.91 246.38 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e5c1bf7-a843-4320-8d8e-ff5cbe7efab0)
-    (property "Reference" "#PWR047" (at 35.56 246.38 0)
+    (property "Reference" "#PWR049" (at 35.56 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 246.38 90)
@@ -3769,11 +3847,36 @@
     (property "Datasheet" "" (at 41.91 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2ccfbdcd-d769-4a39-afb4-98ba7b1e630e))
+    (pin "1" (uuid fd81b09b-474b-45bc-939a-137aa8d47b50))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR049") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 293.37 92.71 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5ecb3bb1-07eb-4bb2-9f88-6dc8a058cf97)
+    (property "Reference" "#PWR032" (at 293.37 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 293.37 97.79 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 293.37 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 293.37 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bd663159-c927-49ca-8ea8-24daa8f49a5c))
+    (instances
+      (project "遥控器"
+        (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -3794,7 +3897,7 @@
     (property "Datasheet" "" (at 350.52 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 69386d05-9105-421b-a163-91b9e643cf85))
+    (pin "1" (uuid 03d565aa-99bc-490b-8f65-996ae3e6dabd))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3825,11 +3928,11 @@
     (property "uuid" "std:99f6ec63bbcd41698004a4fe085c0985" (at 308.61 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b185d5c4-0fc4-4fd7-87c8-a3b4b8c7e08d))
-    (pin "2" (uuid 4019a746-6308-4a66-8609-40a629721ed1))
-    (pin "3" (uuid 86601954-c810-4f83-9f5b-70abd6882003))
-    (pin "4" (uuid 3e2455e9-6322-498b-8eba-7c0cecb0b57f))
-    (pin "5" (uuid ad1a6903-e80f-4b31-9f35-dd8aea7f9aa5))
+    (pin "1" (uuid 4e6ac236-1c38-4fb5-bb33-c829dd5d596e))
+    (pin "2" (uuid fe788622-410b-40de-9a27-946a810e6181))
+    (pin "3" (uuid 94b500cc-a306-4acd-b5bf-0ccf7e488f41))
+    (pin "4" (uuid 23350d14-3bcf-488d-a91b-1598ee40e8ca))
+    (pin "5" (uuid b019e7ad-2ac3-4a83-bdb5-eb2b158be268))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3854,13 +3957,13 @@
     (property "Datasheet" "" (at 320.04 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c0344ab4-ddf4-481b-abee-094c942b8694))
-    (pin "2" (uuid 3e1d7121-74c8-4199-9a25-425d8c50a6b2))
-    (pin "3" (uuid 8513a269-b69e-4879-a1ea-0827b031099d))
-    (pin "4" (uuid 8bf334e2-6c4a-49c0-83e7-2870ed27257f))
-    (pin "5" (uuid b29a6fe9-ca9f-4b36-8690-a5807af42d75))
-    (pin "6" (uuid 0f32f034-6715-4fc9-9459-962827fe281c))
-    (pin "7" (uuid 111bbea6-4daf-42b3-89f6-c150297168ca))
+    (pin "1" (uuid 4b3dc0b5-92e5-436f-96a3-445e113e6045))
+    (pin "2" (uuid 92193077-3e55-4196-9bc4-9451da3b3d19))
+    (pin "3" (uuid 74e96903-5311-40a2-841a-ffed0fb5846c))
+    (pin "4" (uuid 77038f11-0a96-48d2-9b35-13963cab9486))
+    (pin "5" (uuid 67f4bfaa-c683-4e0e-86a6-cc12edb1531c))
+    (pin "6" (uuid 904d45e6-a38b-425a-ba17-8b1816cdf8e5))
+    (pin "7" (uuid 8ef6e10f-fca6-4007-b694-bb2a510d0bed))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3885,7 +3988,7 @@
     (property "Datasheet" "" (at 187.96 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eca55f5b-dad4-4c95-9566-9b0446132608))
+    (pin "1" (uuid de728407-694d-4417-b240-65f32e14e822))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3916,19 +4019,19 @@
     (property "uuid" "std:62d9b81b4c874607b6ff48e981f43a43" (at 358.14 35.4584 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a0bb90d0-3ae2-4692-a3fc-f7e1cc7e6507))
-    (pin "10" (uuid a7a99b80-c46b-4d61-8628-e511a46282c0))
-    (pin "11" (uuid bb4f0d7e-0f9b-476f-af6b-26be245da591))
-    (pin "12" (uuid d87f3dda-5d3f-4393-b6bc-e02da15c955b))
-    (pin "13" (uuid 720c78e2-f100-410c-9a98-f3349e2a1b78))
-    (pin "2" (uuid dbbe1a80-d256-44eb-8fe3-41be2136417a))
-    (pin "3" (uuid 3fe4fca1-adda-4688-a3aa-4d856e70fca8))
-    (pin "4" (uuid 649d3e47-9c01-4e4a-bae0-e7f476145506))
-    (pin "5" (uuid 749fd263-e2aa-4d16-814f-f128544a393f))
-    (pin "6" (uuid cb972706-8810-4078-b8e3-e16950105f9b))
-    (pin "7" (uuid 3b47df99-f45f-4ad5-a745-27c6b20c146e))
-    (pin "8" (uuid 49c8904b-6643-48fa-8ba6-0117f933076c))
-    (pin "9" (uuid bda3e684-5ba9-43e7-a589-677d2a2b1e55))
+    (pin "1" (uuid 224b1916-2ac4-42e6-b445-86d43cec5b38))
+    (pin "10" (uuid 5049b1d2-ad96-49a0-a4b8-91de444cdf09))
+    (pin "11" (uuid 87cd8e16-6f41-412a-b792-9839383a3a66))
+    (pin "12" (uuid e5caa050-b058-4f4b-aec8-77aaacb3eac2))
+    (pin "13" (uuid 2f532b72-f9d5-413b-8f4b-6b8e16471503))
+    (pin "2" (uuid 5f3858f2-c4ce-40f8-98fd-2c6562711e31))
+    (pin "3" (uuid be0406a0-8201-459d-82e2-7959a1e85878))
+    (pin "4" (uuid c98d135b-c144-4b0f-bffe-854f46c70b23))
+    (pin "5" (uuid 64e353c2-7da2-4314-8857-ffb22aba26f1))
+    (pin "6" (uuid a1fabac0-ebf9-4e0c-9684-6195f64a444d))
+    (pin "7" (uuid 6a87311c-776b-42fc-b3f8-65fd24924905))
+    (pin "8" (uuid fa1f7071-de6f-4e19-b6d0-58f039ec8ef6))
+    (pin "9" (uuid aedde383-74ef-4253-a602-515bcc69ee89))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -3953,12 +4056,37 @@
     (property "Datasheet" "~" (at 300.99 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9b6533b4-9be2-4283-84bb-a3f95b73bced))
-    (pin "2" (uuid 778a5e99-3949-4883-9044-73d0dcef9f16))
+    (pin "1" (uuid fab220cd-2d4c-4451-8670-f085da619768))
+    (pin "2" (uuid 84513c76-3d41-4cb4-8af4-d6688e58e8fc))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
           (reference "SW13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 293.37 83.82 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6e64c29b-47b7-4c7f-82d3-2ef5ad516af2)
+    (property "Reference" "#PWR029" (at 289.56 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 297.18 83.82 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 293.37 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 293.37 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9f06ff76-741c-4a68-8698-dbdab9ed1597))
+    (instances
+      (project "遥控器"
+        (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -3979,7 +4107,7 @@
     (property "Datasheet" "" (at 350.52 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 647757ba-b6dc-4424-aa78-ea33fddc7fc7))
+    (pin "1" (uuid 314f91d3-dd7a-4431-bca5-c39cf2167638))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4004,8 +4132,8 @@
     (property "Datasheet" "~" (at 240.03 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 60ca88a0-3527-42fb-a0f1-9a6127738de4))
-    (pin "2" (uuid 95fd8d7d-fe04-4bd6-9987-f874d76d55c9))
+    (pin "1" (uuid 079e4b17-7a0b-4e85-8308-4dc2328cf65d))
+    (pin "2" (uuid d344b241-3fb9-41ac-9889-78ff4b75ac2b))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4030,7 +4158,7 @@
     (property "Datasheet" "" (at 246.38 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c3fd2355-8289-40b2-b1b6-c33ce80f6d9f))
+    (pin "1" (uuid 6775bab8-1798-4efb-959d-950f2c33800d))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4055,7 +4183,7 @@
     (property "Datasheet" "" (at 210.82 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f58bb00e-5def-4132-a2c3-36aff8c74153))
+    (pin "1" (uuid 1ed07b76-58f3-45de-8bdd-0a2af4de73d5))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4080,7 +4208,7 @@
     (property "Datasheet" "~" (at 281.94 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e8c547f2-6dfa-4f93-b340-3569cb14d8cd))
+    (pin "1" (uuid 77cde5e8-f3e5-40b1-a679-dc0f2f5fb0b5))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4093,7 +4221,7 @@
   (symbol (lib_id "power:+3.3V") (at 199.39 152.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 786bad6b-0fb0-48a8-8a4d-c350cb0eb227)
-    (property "Reference" "#PWR039" (at 203.2 152.4 0)
+    (property "Reference" "#PWR041" (at 203.2 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 195.58 152.4 90)
@@ -4105,11 +4233,11 @@
     (property "Datasheet" "" (at 199.39 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 246fd946-2954-49a4-81ac-07879212f4ed))
+    (pin "1" (uuid 35b01069-44de-4a53-8861-8bd5bb4f6281))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -4130,7 +4258,7 @@
     (property "Datasheet" "~" (at 281.94 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid abaa0c73-1d8d-44f2-9432-575308fe0690))
+    (pin "1" (uuid ef454e67-062b-4055-bc66-933ce94923e9))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4140,26 +4268,26 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 41.91 187.96 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "power:GND") (at 41.91 189.23 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d871102-ca8e-4dd9-bada-404cee35ac94)
-    (property "Reference" "#PWR045" (at 41.91 194.31 0)
+    (property "Reference" "#PWR047" (at 41.91 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 41.91 193.04 0)
+    (property "Value" "GND" (at 41.91 194.31 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 41.91 187.96 0)
+    (property "Footprint" "" (at 41.91 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 41.91 187.96 0)
+    (property "Datasheet" "" (at 41.91 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2bf3c162-42ff-4fdc-8beb-ff7f1ae55735))
+    (pin "1" (uuid 13cc056c-0737-4bb7-b1f1-08256cf9253d))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -4180,8 +4308,8 @@
     (property "Datasheet" "~" (at 195.58 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 90ae7a38-78ec-4ff6-8d09-149c5a0ea40d))
-    (pin "2" (uuid e83148e5-b9dc-4d31-b84d-a0378b949f31))
+    (pin "1" (uuid b87e5b1a-0915-4f83-b285-85278412eead))
+    (pin "2" (uuid 64ae0842-8fc3-4bcd-a992-dd6e7d8a34a5))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4206,12 +4334,12 @@
     (property "Datasheet" "" (at 218.44 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fb99abc6-f9ed-4f09-8e32-3681edc917ce))
-    (pin "2" (uuid 7ffc9e5e-bc44-485b-be8d-723f0a006cbe))
-    (pin "3" (uuid aa26186a-2068-4799-a6c0-36d8f82052c5))
-    (pin "4" (uuid b0bc49b0-db82-492d-a1b6-8e4df5c44d91))
-    (pin "5" (uuid 1ee823fe-1ebf-4bd3-8c6b-02421cb53c03))
-    (pin "6" (uuid a18a69bc-3bd5-4a2b-9e10-e86626a693ea))
+    (pin "1" (uuid af1d8d97-6ae8-4e34-80d8-c4c9ee7f2cae))
+    (pin "2" (uuid a45ef0c5-3506-4f01-9806-9b7067c2b7a4))
+    (pin "3" (uuid db23db8f-f23a-4690-9f07-7896dfe1a056))
+    (pin "4" (uuid 64aade4e-15f8-449a-90b5-edd38ce9005d))
+    (pin "5" (uuid 0cdfcc4a-5dc3-41f6-b2aa-f56858f3746c))
+    (pin "6" (uuid 1ec73ec2-f15e-4397-97be-d8a3bcf2b82c))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4236,8 +4364,8 @@
     (property "Datasheet" "~" (at 213.36 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 99d0fb6d-5033-468e-9fb9-7fe37959725d))
-    (pin "2" (uuid ccc446be-7d4a-4cad-a482-b075a60dd5fc))
+    (pin "1" (uuid 0511143a-653b-4b96-87a7-623b7e0cae32))
+    (pin "2" (uuid dc47bc02-0f05-450e-b822-567fa699661e))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4262,7 +4390,7 @@
     (property "Datasheet" "" (at 196.85 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8b842229-2921-43b3-8158-3148efbaa0b6))
+    (pin "1" (uuid 7b9614da-c141-4348-8bdd-e02868675c9b))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4287,8 +4415,8 @@
     (property "Datasheet" "~" (at 266.7 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4232bf99-2ec1-4614-b15e-7070ac1be116))
-    (pin "2" (uuid 60ab6a9d-a656-4548-a8c8-656e10ab55f4))
+    (pin "1" (uuid 11196ec2-575a-4d52-a172-c20f0b9cfddd))
+    (pin "2" (uuid 2cf34bf7-d344-40bb-aa2b-221d4180aa86))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4313,8 +4441,8 @@
     (property "Datasheet" "~" (at 284.48 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d15647ed-773a-4b78-8b18-26b83ee894aa))
-    (pin "2" (uuid 9efcd63b-e98a-4395-9e1e-822449db0102))
+    (pin "1" (uuid 40fec00a-61ef-4651-9f3d-8ce9fec4f8ce))
+    (pin "2" (uuid d18d0c2f-1574-412c-a7b7-b6e094e833f9))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4327,7 +4455,7 @@
   (symbol (lib_id "power:+3.3V") (at 41.91 254 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 919d9a6b-ae63-4f0f-bb08-15095fe5abca)
-    (property "Reference" "#PWR050" (at 45.72 254 0)
+    (property "Reference" "#PWR052" (at 45.72 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 38.1 254 90)
@@ -4339,11 +4467,11 @@
     (property "Datasheet" "" (at 41.91 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 65532a20-b689-4c5b-b3f5-678547d8417c))
+    (pin "1" (uuid 573e98ac-3d45-4ff3-8494-c08edd1f5950))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -4364,8 +4492,8 @@
     (property "Datasheet" "~" (at 71.12 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ba20235a-663e-4deb-91d2-d86abab4e258))
-    (pin "2" (uuid 7c430ea0-337a-46f6-a775-9a240cc2b87a))
+    (pin "1" (uuid cc49ae51-89b3-4036-9130-58fb47e9e84d))
+    (pin "2" (uuid 1aa2846c-3a97-4b0a-9cd2-373ac8bbb1ad))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4390,8 +4518,8 @@
     (property "Datasheet" "~" (at 234.95 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e218b21d-7f3d-4787-8991-358d0c264d25))
-    (pin "2" (uuid d6c0526a-30a3-4598-8ff5-c1b8999ed6fc))
+    (pin "1" (uuid bfc0db8f-1cdf-4fbb-b3b0-74b95261f73a))
+    (pin "2" (uuid bae0006b-4fe6-4239-8be5-f2ab7e0998d2))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4416,13 +4544,13 @@
     (property "Datasheet" "" (at 49.53 250.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fa570049-2228-4e3c-9508-739faf68dfe6))
-    (pin "2" (uuid 27326955-20e4-485d-96c1-f6bd0a05a4c2))
-    (pin "3" (uuid 0c4327aa-8102-4df6-9cc7-b13089bf76a9))
-    (pin "4" (uuid e6fc69ce-5372-49e0-a039-dc65aa8fb00e))
-    (pin "5" (uuid 58f26eb3-88e8-4487-a920-130dad10315d))
-    (pin "6" (uuid 54edd256-488f-498a-88e7-4a81689cd665))
-    (pin "7" (uuid 7fe448d2-bb9b-4c1f-895b-98ce6acc5a60))
+    (pin "1" (uuid 0847dc21-5b16-4ecb-8b66-7a1a904b92e6))
+    (pin "2" (uuid 60451864-f044-4486-8871-2329d240e2d0))
+    (pin "3" (uuid 3cae9d07-0791-444e-b078-4259634fa1bd))
+    (pin "4" (uuid 0c2b2583-33b8-4f4a-bf1c-047c13a16575))
+    (pin "5" (uuid ed39bb91-c4c6-4c8c-ab34-ebf78098bab8))
+    (pin "6" (uuid 048a959e-1040-4caa-86cf-6da24dc04166))
+    (pin "7" (uuid 26c99a3b-d64e-49d1-b1e8-a6b05b0b19bf))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4435,7 +4563,7 @@
   (symbol (lib_id "power:GND") (at 57.15 246.38 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2bc413a-aaaa-4629-aa3f-c6d1838c64a4)
-    (property "Reference" "#PWR048" (at 63.5 246.38 0)
+    (property "Reference" "#PWR050" (at 63.5 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 246.38 90)
@@ -4447,11 +4575,11 @@
     (property "Datasheet" "" (at 57.15 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid be76c2cf-205a-4e35-8ebe-1b8bcfc2ff93))
+    (pin "1" (uuid 7f4336a9-0e8b-40ec-b827-ac17e5b435a0))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -4472,8 +4600,8 @@
     (property "Datasheet" "~" (at 232.41 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b7d5cc45-1de8-4a14-95c7-630013c3a2dc))
-    (pin "2" (uuid 423d80c2-2feb-4f03-b02a-da4c9590496b))
+    (pin "1" (uuid 51f35e2b-d7a3-41dd-9cf5-b891a2c7e6c8))
+    (pin "2" (uuid 1fbd9b50-ec45-47db-b1cd-fc834de809c7))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4498,8 +4626,8 @@
     (property "Datasheet" "~" (at 100.33 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 02720913-1c3a-4abf-a8ac-8b489166fe95))
-    (pin "2" (uuid 7b3f8ffe-f6e6-42ed-a1c6-0b1417874fd1))
+    (pin "1" (uuid e2014ed2-c0e5-4a89-a37f-546c9e7607b5))
+    (pin "2" (uuid e28f1712-19dd-4e7f-bcea-fbe21cf9a008))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4524,10 +4652,10 @@
     (property "Datasheet" "" (at 97.79 250.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 490358c8-1ec0-4b48-9159-d00d0e62cefb))
-    (pin "2" (uuid 6c597f5f-95f5-455a-8fcc-76bb7be4725a))
-    (pin "3" (uuid 11147d7a-f887-4a38-9bcd-7532f8d82066))
-    (pin "4" (uuid be8d0ce9-5ae5-403b-a4b9-fc99e185a04b))
+    (pin "1" (uuid e2ae221f-5554-4c0d-8e4f-2e6c8cf7bda9))
+    (pin "2" (uuid d6e2df96-6196-45b3-9ca6-1703dcdb0083))
+    (pin "3" (uuid bb407943-f4dc-4ba0-ba3d-469c7ced5e7c))
+    (pin "4" (uuid 1950a382-443f-4f14-a74e-f8a9356c3a61))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4552,8 +4680,8 @@
     (property "Datasheet" "~" (at 196.85 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 49289aff-ace1-4e1e-9d7f-a84ac21da22b))
-    (pin "2" (uuid 77f46b64-1f89-4013-966b-059e46a59a10))
+    (pin "1" (uuid 10d9a1fe-c10e-42c1-bdfc-ccbd28f2510b))
+    (pin "2" (uuid aa88cb02-8fbf-49e3-8c54-a9e1ffdeeadf))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4563,10 +4691,35 @@
     )
   )
 
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 288.29 92.71 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b0f89bf0-3d06-4708-89a2-f6201b3f11ed)
+    (property "Reference" "J6" (at 288.925 87.63 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 288.925 90.17 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" (at 288.29 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 288.29 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f935a89c-bfbf-40d7-8f5b-23816c6257f8))
+    (instances
+      (project "遥控器"
+        (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
+          (reference "J6") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+5V") (at 123.19 162.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b35eb9dd-b7fa-48be-bc69-b3161dd290b9)
-    (property "Reference" "#PWR043" (at 123.19 158.75 0)
+    (property "Reference" "#PWR045" (at 123.19 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 125.73 163.83 0)
@@ -4578,11 +4731,11 @@
     (property "Datasheet" "" (at 123.19 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5ee6756a-5de3-4a6b-97d8-c928978d7826))
+    (pin "1" (uuid 69f60fda-5cae-40ce-a094-5da1166dcbe9))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -4603,8 +4756,8 @@
     (property "Datasheet" "~" (at 220.98 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 561e953a-2446-412b-b682-5987eaead961))
-    (pin "2" (uuid 25bc8222-a066-4833-97b0-b2fa6f8b66d2))
+    (pin "1" (uuid 48017e8a-8e6f-401d-83d2-80637c2d039a))
+    (pin "2" (uuid bd20fdc6-eb0a-459e-a5bd-0c6f596c48a6))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4629,8 +4782,8 @@
     (property "Datasheet" "~" (at 102.87 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b269b8ec-a417-43a0-8ac4-225f67615ac9))
-    (pin "2" (uuid 94affacc-4f48-493f-ba7f-8aa7c0803f95))
+    (pin "1" (uuid bfc31340-a579-425b-92e3-15331bf256c2))
+    (pin "2" (uuid 74bb7621-f51f-486a-8b3a-2303c9c066bf))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4655,8 +4808,8 @@
     (property "Datasheet" "~" (at 222.25 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 47f285fb-8747-4706-8c0f-a4c9f3a271c0))
-    (pin "2" (uuid ed4d6a10-192a-4a4e-be5d-b8547a6eb48c))
+    (pin "1" (uuid f09b1fb9-7fd9-4009-9167-12fdb625b685))
+    (pin "2" (uuid 8ecad370-b92e-4c6f-870f-33d09af79095))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4669,7 +4822,7 @@
   (symbol (lib_id "power:GND") (at 90.17 246.38 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b9ddbc10-fa80-416d-8dbd-898dd833373c)
-    (property "Reference" "#PWR049" (at 83.82 246.38 0)
+    (property "Reference" "#PWR051" (at 83.82 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 246.38 90)
@@ -4681,11 +4834,11 @@
     (property "Datasheet" "" (at 90.17 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d7fdf578-9793-41ea-8a5a-ff155850c314))
+    (pin "1" (uuid 1544be24-f024-4b39-b8c8-dcb005b1806d))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -4694,7 +4847,7 @@
   (symbol (lib_id "power:GND") (at 93.98 160.02 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb66f8b4-4c2f-4805-bfe4-418a37fc18b3)
-    (property "Reference" "#PWR042" (at 87.63 160.02 0)
+    (property "Reference" "#PWR044" (at 87.63 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.17 160.02 90)
@@ -4706,11 +4859,11 @@
     (property "Datasheet" "" (at 93.98 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bfdd4611-b559-4e61-9483-86fd637e7705))
+    (pin "1" (uuid ea432b9d-f887-41d9-a94d-a3c14689d885))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -4719,7 +4872,7 @@
   (symbol (lib_id "power:+3.3V") (at 90.17 254 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcb16be6-b8fa-45b3-9b3c-f8c186f1d448)
-    (property "Reference" "#PWR052" (at 93.98 254 0)
+    (property "Reference" "#PWR054" (at 93.98 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 83.82 254 90)
@@ -4731,11 +4884,11 @@
     (property "Datasheet" "" (at 90.17 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 43bef565-3f80-4e37-8d33-d1f8de7c60a4))
+    (pin "1" (uuid cd25ac6c-9737-40e5-b15f-50605b18bb89))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -4744,7 +4897,7 @@
   (symbol (lib_id "power:GND") (at 217.17 133.35 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be275ffc-0989-41f2-a895-2d3a23496128)
-    (property "Reference" "#PWR034" (at 223.52 133.35 0)
+    (property "Reference" "#PWR036" (at 223.52 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 220.98 133.35 90)
@@ -4756,11 +4909,11 @@
     (property "Datasheet" "" (at 217.17 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0f0ff417-e655-4cdf-9d6c-8ac43d01f6e5))
+    (pin "1" (uuid 6bc411ad-30af-4715-b4c5-62f813919103))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -4781,8 +4934,8 @@
     (property "Datasheet" "~" (at 124.46 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1f1ca677-a0e2-4448-afd1-7a4e5a23c07a))
-    (pin "2" (uuid 9cbe4a32-46f2-4ba9-85d7-0e7974db721a))
+    (pin "1" (uuid 544000e9-7655-443c-b085-3c5e90d113f0))
+    (pin "2" (uuid 98cf6a4a-33ae-40b4-8539-44689a8e76a8))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4807,8 +4960,8 @@
     (property "Datasheet" "~" (at 123.19 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1ecab95f-e6ab-43fd-a056-aab48b70f435))
-    (pin "2" (uuid 9f5bb28c-73a4-4ec1-b2a2-596e4b306222))
+    (pin "1" (uuid 05eec0e4-be5b-4a4f-b0bb-506eaa244867))
+    (pin "2" (uuid ab57d1a3-cc10-4395-a2d7-7084632d222e))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4821,7 +4974,7 @@
   (symbol (lib_id "power:GND") (at 328.93 144.78 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2b89ae0-4d00-4c39-807c-26e868422849)
-    (property "Reference" "#PWR036" (at 335.28 144.78 0)
+    (property "Reference" "#PWR038" (at 335.28 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 332.74 144.78 90)
@@ -4833,11 +4986,11 @@
     (property "Datasheet" "" (at 328.93 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8e628613-decb-4769-94a6-5d88f62446ed))
+    (pin "1" (uuid be47b623-0eb0-4de3-9c67-0de3d2ed74a6))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -4858,8 +5011,8 @@
     (property "Datasheet" "~" (at 289.56 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d2ea595e-4881-41d6-82d1-d3817dbfa02a))
-    (pin "2" (uuid c1c2fcdf-1f59-44d7-a8e7-e6ec9f80ea07))
+    (pin "1" (uuid 1edc386a-0880-45a9-86ae-46056bb10f8c))
+    (pin "2" (uuid 00082915-6a3b-440c-8c3e-c5c1d0a4825e))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4884,8 +5037,8 @@
     (property "Datasheet" "~" (at 186.69 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ab7d3902-1ae3-437b-a982-d4c2c659ea0a))
-    (pin "2" (uuid 0fb28b51-5317-4123-aea2-6a0c0ef6a79a))
+    (pin "1" (uuid 21a392c9-dee0-4d18-afdf-a7ebc8d28ad7))
+    (pin "2" (uuid 53aa0502-83bf-439b-83a2-50910e5c4717))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4910,70 +5063,70 @@
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f103rc.pdf" (at 50.8 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4e58dfac-2729-4054-9b03-ce21c74e0d76))
-    (pin "10" (uuid bf872bac-d006-40dc-bf93-14303e3a47bd))
-    (pin "11" (uuid 30a8e3ad-bc8f-4b1b-b6d1-377857eafd62))
-    (pin "12" (uuid 529d494b-5fd5-4f4d-8c27-f197a8b5bf0b))
-    (pin "13" (uuid 7a35a651-9492-4708-a3af-5625e3153891))
-    (pin "14" (uuid 865ffdf4-d035-4928-963c-046f7994f39e))
-    (pin "15" (uuid 62a9609e-c11f-4b2c-a635-6ea6b2c46986))
-    (pin "16" (uuid 83d79752-684e-45da-80d9-1457087331a5))
-    (pin "17" (uuid 72d0977d-af32-4a9a-a325-ac5a02714e41))
-    (pin "18" (uuid e9401061-e6c9-4dff-b0a8-e0f1fb117b51))
-    (pin "19" (uuid 4ee69f64-91e5-42a3-9e0d-06d8239b2858))
-    (pin "2" (uuid 624dbdb8-42de-4a82-bb75-ea983d5250d6))
-    (pin "20" (uuid d25d54c1-c1ed-4d1b-a587-bffea04ae732))
-    (pin "21" (uuid 3ed18db2-b228-4323-9063-9dbfeca23278))
-    (pin "22" (uuid 02663df9-23b7-468f-953f-67393c8cc846))
-    (pin "23" (uuid 39badf17-65e5-46f8-a92c-de924a4162ff))
-    (pin "24" (uuid e3915faa-7173-408b-9571-fec04591ec13))
-    (pin "25" (uuid 9c008e72-b79a-478e-b3f5-458e4a7ea7e7))
-    (pin "26" (uuid 0461017f-05e9-46b4-ae23-d22548080a0a))
-    (pin "27" (uuid 4c8e9af4-ec00-4e4c-a92f-e4401323f0ab))
-    (pin "28" (uuid bb5c3203-53c5-4e13-89de-130a87233729))
-    (pin "29" (uuid 0a77a93b-d801-4b08-835c-97b0cc22bb0c))
-    (pin "3" (uuid 1548d518-39e3-45c7-a5aa-9388649c8194))
-    (pin "30" (uuid 4ed3213d-5d00-4065-ba5b-3a014a01bc3c))
-    (pin "31" (uuid 04261e7f-a682-430c-b34c-0b3894d25fab))
-    (pin "32" (uuid 8dc388b8-846d-4503-9054-67b654b24dbb))
-    (pin "33" (uuid 8ea7dfbd-2ee1-4d0b-9b0e-c9fb1910e2c8))
-    (pin "34" (uuid 2cbb87de-28c2-4345-9159-31b1f56c37b4))
-    (pin "35" (uuid 6c8bdf86-5cb2-4095-83a8-a8193ba3b06a))
-    (pin "36" (uuid c3bc7209-6984-462d-8c94-105f0a99b8fd))
-    (pin "37" (uuid a27104c5-5556-4eb3-ac75-68a6988a945e))
-    (pin "38" (uuid 7aabeba9-6a99-4fdb-ae11-2787fe6ae576))
-    (pin "39" (uuid cfbacb32-4354-4081-84c8-78c8fd977b2d))
-    (pin "4" (uuid 7fd88b60-4b31-4801-9951-f49561197a15))
-    (pin "40" (uuid 10b3ada0-29cb-4f67-9899-15135d51a50d))
-    (pin "41" (uuid af64c4dd-c8cf-4d6e-9bbd-5c10a5a0ceab))
-    (pin "42" (uuid 175b820c-04d6-4380-aa4c-bfcec39a29b3))
-    (pin "43" (uuid 1fdf44b7-ce11-4b94-9c14-c1ba9f93fd0d))
-    (pin "44" (uuid 896a5370-cb87-43dc-aae3-704eace6035d))
-    (pin "45" (uuid a0d3b503-5b39-4273-bfce-732219b2ce8e))
-    (pin "46" (uuid 96c268bc-efd1-4c53-9eab-686c0fdd8134))
-    (pin "47" (uuid d9157c1a-c69b-4189-973f-00586e82272f))
-    (pin "48" (uuid 657bdc28-7f99-4fb6-87e9-b009d57ff1cb))
-    (pin "49" (uuid e6a03618-db76-4b4c-876f-d0b767609c1d))
-    (pin "5" (uuid 2ebd83fe-b494-45c1-aba4-0febce4b47a6))
-    (pin "50" (uuid d42031dd-69fb-4ea0-b03a-1203d325d28f))
-    (pin "51" (uuid f4519684-c612-499c-942f-d009cfdf7385))
-    (pin "52" (uuid dd959b31-a845-4ac6-aa3d-26dc7fb0dbc7))
-    (pin "53" (uuid bddac635-4765-4ed9-be47-a69097306f6b))
-    (pin "54" (uuid 1de389f4-fb34-4a52-809f-470807d539bb))
-    (pin "55" (uuid 723dc124-5a17-4766-bc98-cbca388c0766))
-    (pin "56" (uuid 0d31eb4f-c3a9-424e-b59a-913016dc36ee))
-    (pin "57" (uuid 7c1315d8-48d4-4f7a-93e3-f930b6a10d4d))
-    (pin "58" (uuid a99b206b-5e3e-42d5-a587-46b6d4c2bf8e))
-    (pin "59" (uuid 6b024b3b-ccc0-4e12-9b8b-bd653a91a12c))
-    (pin "6" (uuid 26511280-9224-4ca4-9df6-221bfecc26bf))
-    (pin "60" (uuid c43bdb00-46f5-49ad-8b1d-c1ce8901ecd4))
-    (pin "61" (uuid 889a9964-290f-4fd5-b255-65c04ec61b6e))
-    (pin "62" (uuid 8165a80f-c211-4886-8222-a49ffe0041e7))
-    (pin "63" (uuid 38461559-bce9-40c5-836c-72ef5bd1f9e3))
-    (pin "64" (uuid 3037e5a9-a6fb-4bc2-93dd-85a428cf8879))
-    (pin "7" (uuid e6d9011f-9ab2-49ea-afb8-10f0ce670a8c))
-    (pin "8" (uuid ce8dd264-6b1f-4485-a53e-d62aab40517a))
-    (pin "9" (uuid 7263535b-762f-4be7-9784-e5cb183d4e23))
+    (pin "1" (uuid d7bae314-0803-4d14-9e76-7cfa52bfc537))
+    (pin "10" (uuid 87c8a740-1e6a-450d-af11-ce20a73fac92))
+    (pin "11" (uuid d7eb72a7-640e-4786-ba40-3cf1552b2a6f))
+    (pin "12" (uuid e5f8d5dc-9435-405c-9132-25ef8539264f))
+    (pin "13" (uuid a1d943ab-96c4-4ab7-9137-9390695209ac))
+    (pin "14" (uuid 52f2afc9-d9be-4b99-b24c-2d4f2cce8d0a))
+    (pin "15" (uuid d82ac43e-def6-4005-9378-77c7a20642d0))
+    (pin "16" (uuid bc3c13b8-8285-4ad6-817e-2c456339500e))
+    (pin "17" (uuid 1658bc50-1336-4d03-8f3f-2e16de0fcf96))
+    (pin "18" (uuid dc68cfdc-f504-4bc4-bdbb-f1720b9b9eb0))
+    (pin "19" (uuid 68581a6e-93d3-4d84-b840-c290989ab82b))
+    (pin "2" (uuid 9ebabf5d-42a3-4456-b553-85956e21fa1a))
+    (pin "20" (uuid 0489ebf4-ec0b-4a2c-bfb0-18f8795432fa))
+    (pin "21" (uuid 96b3c207-2486-400b-b3d1-16a894f63eb5))
+    (pin "22" (uuid 33bb4677-1f1d-4767-b1b9-e0403f4d499e))
+    (pin "23" (uuid 63ceb8e9-9ad1-4a80-b4a6-e68b51c35b7d))
+    (pin "24" (uuid 3a037e44-a27e-451d-8a11-f904c6fcf7a3))
+    (pin "25" (uuid 8b58562d-a438-49b6-80cf-bc544113c8a1))
+    (pin "26" (uuid b0c14ac0-5604-494c-a415-ce5ae2478b52))
+    (pin "27" (uuid beed99e5-2a10-4b12-91ef-d6673b9f27c0))
+    (pin "28" (uuid 8ba8ce7f-cc60-4d15-8d34-995df190edf4))
+    (pin "29" (uuid 400e6f24-c170-4673-8284-cd7b9d360812))
+    (pin "3" (uuid ca676795-f2d6-417b-b574-c1d44c75f4f0))
+    (pin "30" (uuid 8d38a0da-684a-48cf-874b-28122651c3e1))
+    (pin "31" (uuid e7fd4661-fe55-4ccd-879e-747f88b3dbe7))
+    (pin "32" (uuid f4f4ee85-56bd-495d-b031-0bfd211dfc26))
+    (pin "33" (uuid 20ccedc5-b5f8-4d64-85de-e510058d6dd7))
+    (pin "34" (uuid 636868e1-d70b-47d6-8195-b023cab7f072))
+    (pin "35" (uuid c9da717f-8c30-444b-a9ef-d6f22d0b8076))
+    (pin "36" (uuid 3a452afa-ff48-4282-a985-2c4ffa428273))
+    (pin "37" (uuid f4f04808-879b-4550-80fd-d5024e51c64d))
+    (pin "38" (uuid f8331709-41ba-4f21-922f-b3ecf7b3b679))
+    (pin "39" (uuid 69bc4050-d2fb-464f-892a-10777a73f0a5))
+    (pin "4" (uuid 0078d172-acce-473e-81fb-a4c53521a030))
+    (pin "40" (uuid 461969b4-d338-4e2d-be92-6b1efb91dfbd))
+    (pin "41" (uuid 6b8906bc-a1ea-47c8-9bff-c543042a2250))
+    (pin "42" (uuid 5bf7b8f1-0fc0-407d-9370-d9430a3e502e))
+    (pin "43" (uuid af29ca11-3e4f-458f-a3dd-cb651f42d301))
+    (pin "44" (uuid df08b879-1d9e-47f6-85fe-2f8e81586f9a))
+    (pin "45" (uuid 5b131b42-9266-4364-9002-ab88fe1e9578))
+    (pin "46" (uuid 3df4b7ae-63c8-4f46-8071-3f00308ea8ad))
+    (pin "47" (uuid 697cac66-be21-43e2-8dee-498f264d04d8))
+    (pin "48" (uuid 96373dff-5a08-466a-a4be-7251b44aa611))
+    (pin "49" (uuid 09c47e75-16ec-4931-b06c-145bf115e718))
+    (pin "5" (uuid 62077227-6314-425c-b277-dd4656e33cba))
+    (pin "50" (uuid 60f74130-eac3-404f-9e7f-2d9b487615e7))
+    (pin "51" (uuid 793ce3ac-5b13-40d4-8069-160e8ecf38e3))
+    (pin "52" (uuid f564f805-3e9e-4401-9a47-ea1cdd4d248a))
+    (pin "53" (uuid baeddb0f-05f4-4eac-9267-f9a575aa0918))
+    (pin "54" (uuid 38dafeba-fc4f-4110-aa55-af84e702c9fb))
+    (pin "55" (uuid 493b3ddb-5fe4-473e-8966-b1408df02014))
+    (pin "56" (uuid 2a1a0a0b-915a-4590-bfbc-5d47d7d79bca))
+    (pin "57" (uuid 715885f2-e76f-4862-9b7a-583c4a6df9ff))
+    (pin "58" (uuid 62474153-6943-45a7-945b-ac000a709f57))
+    (pin "59" (uuid 8111eff2-29ce-49c6-b040-db4d512624a1))
+    (pin "6" (uuid bcb0bd40-9f45-4eb0-a876-bb84a082e074))
+    (pin "60" (uuid 91ef35cb-c5b4-4dae-887a-622989671029))
+    (pin "61" (uuid 9e59c539-064c-4483-9bff-cc46688e7ac9))
+    (pin "62" (uuid 864be110-9792-4038-8ac7-8771f8d14e0f))
+    (pin "63" (uuid 9fcc1d4e-2cd3-46a9-84c0-9ad6bda6fff0))
+    (pin "64" (uuid f6dde580-5400-4d90-9c9d-5eec6a4a0321))
+    (pin "7" (uuid 0692cb49-991a-4b0e-b18f-91074b0a6cf2))
+    (pin "8" (uuid e5450ded-375c-4fcb-bafb-b1056f6a2999))
+    (pin "9" (uuid 941b07bf-1f63-498f-b0af-a74f4a7edf4b))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -4998,8 +5151,8 @@
     (property "Datasheet" "~" (at 95.25 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7e989daa-63cc-44a5-b896-bf930f0c7d0f))
-    (pin "2" (uuid faa4519c-75b5-4934-ab7c-5482cab0b874))
+    (pin "1" (uuid 7ffb5a14-5ecb-4541-92e1-f6818dba3b63))
+    (pin "2" (uuid 3beb7a2d-3e07-47a8-879a-0d09ea88f001))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5024,7 +5177,7 @@
     (property "Datasheet" "" (at 266.7 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3d094cf9-17ce-415f-94ad-bf4ef63dacb7))
+    (pin "1" (uuid 254441d7-1401-4a46-856e-4a6721bfe0a4))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5049,7 +5202,7 @@
     (property "Datasheet" "" (at 229.87 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 34ea0898-d873-40f9-bae7-28fd083b4623))
+    (pin "1" (uuid 8e9b68ce-91fa-40cb-aa7b-9684939f6367))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5074,7 +5227,7 @@
     (property "Datasheet" "" (at 99.06 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid db0d3114-2a2c-4d88-a94a-9a8d8454c9b7))
+    (pin "1" (uuid 65e58024-06b0-40b6-873f-5dd69810db72))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5099,7 +5252,7 @@
     (property "Datasheet" "" (at 303.53 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2b2726fe-bf7a-435f-b904-063616134f03))
+    (pin "1" (uuid 85af5314-6d8e-4f11-9e5a-3091d701f600))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5112,7 +5265,7 @@
   (symbol (lib_id "power:GND") (at 210.82 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cbb1015d-7416-461d-970d-e089edd237a5)
-    (property "Reference" "#PWR030" (at 210.82 96.52 0)
+    (property "Reference" "#PWR031" (at 210.82 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 95.25 0)
@@ -5124,11 +5277,11 @@
     (property "Datasheet" "" (at 210.82 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1f33710e-03eb-4d9c-9676-b4cff811c13a))
+    (pin "1" (uuid fa513639-1e74-4e68-b69b-c92d331c854a))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -5149,8 +5302,8 @@
     (property "Datasheet" "~" (at 243.84 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 78de7fb6-2e70-4c75-ac59-cfc023870f60))
-    (pin "2" (uuid be5d7fda-bb6c-4fff-bfb7-626fb4dbcbac))
+    (pin "1" (uuid 748dd960-f4aa-45b0-97ff-ed7a473556ce))
+    (pin "2" (uuid e26cb6c4-e7f5-47de-8461-0acd0b9d8f69))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5175,8 +5328,8 @@
     (property "Datasheet" "~" (at 198.12 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9928a238-abbe-421c-9ab3-938e201fcc39))
-    (pin "2" (uuid 66850528-7ab4-4362-8819-a22162912c3a))
+    (pin "1" (uuid 47c38867-d0bd-4951-84ab-02f1fbc71b4c))
+    (pin "2" (uuid 4c977f4c-ee15-4eaf-b716-549202a5c042))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5201,7 +5354,7 @@
     (property "Datasheet" "" (at 109.22 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 98845d46-6de8-4789-a92e-4931c79169e9))
+    (pin "1" (uuid f668406d-de27-491b-a814-3a474536f9dc))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5226,9 +5379,9 @@
     (property "Datasheet" "" (at 210.82 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 479953d1-273e-4577-ba36-5377655e9b13))
-    (pin "2" (uuid 1e142062-aed2-4b8e-b3c6-fc8679859b7b))
-    (pin "3" (uuid e1e4985b-3189-47ae-869b-64ee6f87cc92))
+    (pin "1" (uuid 7a8d8c6d-50d8-46b8-8362-21ddbe735ece))
+    (pin "2" (uuid c9783728-f5b8-4e80-9353-76d20cf77241))
+    (pin "3" (uuid 5ee71fd1-2560-4df4-9491-4cb390f81dbe))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5238,10 +5391,35 @@
     )
   )
 
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 288.29 83.82 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d33587cb-1c42-41a0-9d81-170a9001ccaf)
+    (property "Reference" "J5" (at 288.925 78.74 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x01_Pin" (at 288.925 81.28 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" (at 288.29 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 288.29 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 49fc966c-ec57-4381-b85e-3c72ad1c6fd7))
+    (instances
+      (project "遥控器"
+        (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
+          (reference "J5") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3.3V") (at 57.15 254 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d46b920b-c771-4c1a-a9f4-938e68af1f4d)
-    (property "Reference" "#PWR051" (at 53.34 254 0)
+    (property "Reference" "#PWR053" (at 53.34 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 63.5 254 90)
@@ -5253,11 +5431,11 @@
     (property "Datasheet" "" (at 57.15 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9823fa06-9d3a-491d-b912-344692482f1c))
+    (pin "1" (uuid f04d5f97-2950-43ad-9ece-c5d617bfa66f))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -5278,8 +5456,8 @@
     (property "Datasheet" "~" (at 106.68 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a296bc4f-d49a-4135-9e32-7e47d667b692))
-    (pin "2" (uuid 2d1d13d0-1b43-499c-81b6-543e14f59093))
+    (pin "1" (uuid 9dc11cab-1273-4964-a818-b48c3637f42e))
+    (pin "2" (uuid 0c402eaa-79bc-455b-af95-06aedc9baf33))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5304,8 +5482,8 @@
     (property "Datasheet" "~" (at 175.26 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 45630b9b-3ea4-4767-8323-bd2031c07539))
-    (pin "2" (uuid d0f04713-b22f-4094-a271-c7918a1957a4))
+    (pin "1" (uuid ac336b1b-f24e-4afb-bbab-31881ff710e5))
+    (pin "2" (uuid c7cdf025-520b-4e67-be9a-105551567f25))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5318,7 +5496,7 @@
   (symbol (lib_id "power:GND") (at 111.76 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d890f3a7-5a74-4caa-a6e0-a66d81eb12f4)
-    (property "Reference" "#PWR031" (at 111.76 119.38 0)
+    (property "Reference" "#PWR033" (at 111.76 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 116.84 90)
@@ -5330,11 +5508,11 @@
     (property "Datasheet" "" (at 111.76 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8565846e-5a8f-4ff9-ad62-380b9b3eead0))
+    (pin "1" (uuid 8655081c-a773-4569-aa72-44c8e8860afb))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -5355,14 +5533,14 @@
     (property "Datasheet" "" (at 101.6 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fb74d044-18fa-4567-9e2b-558f94caf365))
-    (pin "2" (uuid b9cec146-c813-4081-a356-acfced2024a0))
-    (pin "3" (uuid 0d59fe35-15e0-4e37-a573-46556b45a91a))
-    (pin "4" (uuid e503285e-dc8f-4f9a-8dda-8a9754fe4add))
-    (pin "5" (uuid b0f90060-179b-4fa2-a0b8-18e0d9bec461))
-    (pin "6" (uuid 08c2442d-d556-43a3-90ac-231dde5a0908))
-    (pin "7" (uuid 9b1e33d4-bb50-4551-b74e-678d2fd45232))
-    (pin "8" (uuid 18293f8d-7a47-4e7c-815a-70176e290cc1))
+    (pin "1" (uuid 8610f561-44c5-4ada-b448-99eeabc51519))
+    (pin "2" (uuid da38cf69-8377-46f2-a805-30f3da9a5447))
+    (pin "3" (uuid 4bdc1910-ec94-4d38-bfb9-dc82bacbb5dc))
+    (pin "4" (uuid 8be9706f-4f7e-4379-bdff-4e90d8fabaae))
+    (pin "5" (uuid 49e92634-3812-4180-a6ac-f0c296caadd0))
+    (pin "6" (uuid 7c008489-71f9-459c-b8a4-d909971146b6))
+    (pin "7" (uuid 10800d0a-28f6-4945-b767-c3ff2e94e064))
+    (pin "8" (uuid 01e5125c-7055-49a4-9797-9bc178449587))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5387,7 +5565,7 @@
     (property "Datasheet" "" (at 266.7 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 77e90e24-fc9b-4413-bc28-597a20ba0eb2))
+    (pin "1" (uuid fd4faa78-9839-4400-ad3d-cb57ce7eec04))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5412,7 +5590,7 @@
     (property "Datasheet" "" (at 350.52 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f5048ead-044a-46dc-892f-d55db00007d9))
+    (pin "1" (uuid f7b24a08-00d0-4d96-8a7a-4ffcd4a2dfdd))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5437,8 +5615,8 @@
     (property "Datasheet" "~" (at 71.12 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4f3ee236-3ac7-4154-8820-58f1ccee47a8))
-    (pin "2" (uuid 02e51a37-e60e-448b-b9a3-49213b830849))
+    (pin "1" (uuid f429b3ac-0259-411e-87ac-7ad3a16cc16e))
+    (pin "2" (uuid 8b12dce4-d439-4cfc-9d9c-bd878fd7a1a5))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5463,8 +5641,8 @@
     (property "Datasheet" "~" (at 207.01 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e2b47809-63db-4a9b-b9d7-5ba2a143ac31))
-    (pin "2" (uuid 7c25e34a-d828-41e6-9a87-b5d209a1b4fc))
+    (pin "1" (uuid c12d8a94-10cf-4713-a8e3-2aaf542a10d3))
+    (pin "2" (uuid 9289b6db-073b-42e8-8080-df00fd669338))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5489,8 +5667,8 @@
     (property "Datasheet" "~" (at 229.87 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2f798d8f-28d0-4524-b294-37f8e82507c9))
-    (pin "2" (uuid fed3a24a-46a8-4df9-a503-ce09c1a70672))
+    (pin "1" (uuid e6db0992-3f50-4539-b340-14cde0858779))
+    (pin "2" (uuid b6dfebf1-e642-4a37-86f1-d136a61ed08c))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5515,8 +5693,8 @@
     (property "Datasheet" "~" (at 195.58 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5477cda4-1fae-4d5f-b5f5-9b623bdddf4f))
-    (pin "2" (uuid de4a51c3-c915-434f-a267-d487b7c1919b))
+    (pin "1" (uuid f3d979e0-04d1-4331-b08b-02c48ae4344f))
+    (pin "2" (uuid 82a310e5-059c-4bc4-9ddc-fb505edb2872))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5529,7 +5707,7 @@
   (symbol (lib_id "power:+5V") (at 57.15 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8ebf0b0-e9ec-4c3c-a7e9-467914b84ce6)
-    (property "Reference" "#PWR037" (at 57.15 153.67 0)
+    (property "Reference" "#PWR039" (at 57.15 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 57.15 144.78 0)
@@ -5541,11 +5719,11 @@
     (property "Datasheet" "" (at 57.15 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 16e736bc-485a-47c1-9f22-909f5a18b40a))
+    (pin "1" (uuid cfb0a997-b66c-4554-bd2c-3cb64366e9de))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -5566,8 +5744,8 @@
     (property "Datasheet" "~" (at 95.25 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b299add8-1155-4b45-b079-1b6005fa1e76))
-    (pin "2" (uuid d7d85abc-d2ab-4faf-9563-1335fe52d4cc))
+    (pin "1" (uuid 26bdf87a-80f5-48fa-9427-3ef78cbb394e))
+    (pin "2" (uuid 7f99f649-c690-44d2-b557-0b172d374875))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5580,7 +5758,7 @@
   (symbol (lib_id "power:GND") (at 74.93 156.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb94a175-c40c-46ea-bb65-177adbcc845d)
-    (property "Reference" "#PWR041" (at 81.28 156.21 0)
+    (property "Reference" "#PWR043" (at 81.28 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.74 156.21 90)
@@ -5592,11 +5770,11 @@
     (property "Datasheet" "" (at 74.93 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 65e79fc3-d7e6-49cf-887f-3b94fc8520e8))
+    (pin "1" (uuid 9135d09a-92c2-4803-9190-ad4149d4d801))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -5617,7 +5795,7 @@
     (property "Datasheet" "" (at 113.03 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 125ffce5-708f-4f64-9b89-acbfe9baf169))
+    (pin "1" (uuid c6643c1b-c4b4-490b-aaac-96bc183537c9))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5630,7 +5808,7 @@
   (symbol (lib_id "power:+3.3V") (at 209.55 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f09bb2df-ca9e-4339-9e6d-b4cdf3a4debb)
-    (property "Reference" "#PWR033" (at 209.55 133.35 0)
+    (property "Reference" "#PWR035" (at 209.55 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 209.55 124.46 0)
@@ -5642,11 +5820,11 @@
     (property "Datasheet" "" (at 209.55 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3159b088-81c7-4aa8-ad4c-d37dda348d2e))
+    (pin "1" (uuid 86848d0b-f578-4f53-8c67-f42eaf07ffe1))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -5655,7 +5833,7 @@
   (symbol (lib_id "power:GND") (at 52.07 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f140dcca-c7be-4a4b-bb60-b3e34d72ff7a)
-    (property "Reference" "#PWR032" (at 52.07 124.46 0)
+    (property "Reference" "#PWR034" (at 52.07 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 52.07 123.19 0)
@@ -5667,11 +5845,11 @@
     (property "Datasheet" "" (at 52.07 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5f1f2be0-cfcd-4f98-8e86-0400e7c80ca4))
+    (pin "1" (uuid 4fba6b02-81ff-4847-854c-b8e111f22111))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -5692,8 +5870,8 @@
     (property "Datasheet" "~" (at 119.38 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 36a283ad-d5ab-4859-a745-4a0026d63ac3))
-    (pin "2" (uuid 02d69718-2313-4ae0-ace0-5eee2c55200f))
+    (pin "1" (uuid 0d3b1e96-4f1d-4f08-b9fa-5c46b9511714))
+    (pin "2" (uuid 6bde4c3b-7f3c-419d-aa2c-c7b3a8e3bb58))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5718,7 +5896,7 @@
     (property "Datasheet" "" (at 287.02 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f030ffa7-2d2f-44b8-aa4d-b8466c440d32))
+    (pin "1" (uuid 014dddc4-6f7d-441a-aa9d-569258d24460))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5743,7 +5921,7 @@
     (property "Datasheet" "" (at 95.25 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 52fec653-fcf5-4346-8fe2-24485c50e155))
+    (pin "1" (uuid dbdfc5f3-71ad-4836-8318-b11f25469526))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5768,7 +5946,7 @@
     (property "Datasheet" "" (at 350.52 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cf20f92a-50d8-4711-aa03-b29145a36df9))
+    (pin "1" (uuid 2b5c0da2-d824-474e-941a-0cc38e8ee980))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5793,8 +5971,8 @@
     (property "Datasheet" "~" (at 90.17 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 136cecfc-a0ae-4cd8-a540-3395fa2bfefa))
-    (pin "2" (uuid 9fbff86e-191c-45d3-90a4-c87f9de7de00))
+    (pin "1" (uuid 12298d51-45ba-455f-b9cd-f05dda3c897c))
+    (pin "2" (uuid 779f5c93-8519-4be4-804b-9ab56d99854a))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5819,7 +5997,7 @@
     (property "Datasheet" "" (at 295.91 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 93037083-ae16-4f0a-bf90-c9872094d2d3))
+    (pin "1" (uuid 6a9f849e-5e05-4b1a-b2f5-ab9c27cbfcd4))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
@@ -5844,14 +6022,14 @@
     (property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" (at 209.55 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c66a3176-0842-4f74-a752-9b813caead5d))
-    (pin "2" (uuid f848ebc9-d214-44df-a9bf-adfd2d4b006b))
-    (pin "3" (uuid 74f0011a-d1eb-4be7-95a5-0cd0d01ce062))
-    (pin "4" (uuid bd4c3a01-2052-4307-8701-451819b5d689))
-    (pin "5" (uuid 3f9b05a9-6ff2-40f4-9ff9-9e0995a41389))
-    (pin "6" (uuid 53e69869-a1ea-48a8-98ed-7b3debec07bd))
-    (pin "7" (uuid 55022d30-6f12-4a82-bbb9-0cdc9335772c))
-    (pin "8" (uuid bdb24a55-5f51-47e4-a61e-fc7f9dc022bd))
+    (pin "1" (uuid 709c5032-7fb0-4839-95de-ed6f4e7e1be4))
+    (pin "2" (uuid b68c3d90-0533-424a-9dbc-9f95b7b818ea))
+    (pin "3" (uuid adc79c7c-ee3e-4bd6-b15e-980ce8d70758))
+    (pin "4" (uuid a2e861eb-8bd5-422b-b5b0-8c5322849372))
+    (pin "5" (uuid 1e353410-3166-42f4-b8ab-493300ec4d2a))
+    (pin "6" (uuid b36da87b-45ce-404d-a429-725b80736ea8))
+    (pin "7" (uuid c15fc6ce-5ac6-45ba-8928-6a494d3ca3c7))
+    (pin "8" (uuid dfdc8f65-ceae-4d33-97c8-7d670901f781))
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
