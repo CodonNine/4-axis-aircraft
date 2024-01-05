@@ -1987,6 +1987,9 @@
   (junction (at 48.26 24.13) (diameter 0) (color 0 0 0 0)
     (uuid 68ad0229-26be-459b-92bf-458529ba5927)
   )
+  (junction (at 128.27 26.67) (diameter 0) (color 0 0 0 0)
+    (uuid 6ceddf03-359c-464a-bee9-54a5244cbe61)
+  )
   (junction (at 181.61 31.75) (diameter 0) (color 0 0 0 0)
     (uuid 6e4d44c6-cba3-419a-bb7f-bfb08dfc0fe9)
   )
@@ -1998,6 +2001,9 @@
   )
   (junction (at 74.93 156.21) (diameter 0) (color 0 0 0 0)
     (uuid 88d9264a-b7e6-4ac2-a658-c85033c4bc59)
+  )
+  (junction (at 128.27 34.29) (diameter 0) (color 0 0 0 0)
+    (uuid 8a2cc35a-e7b5-4175-a4bb-82d73a3e9b09)
   )
   (junction (at 196.85 77.47) (diameter 0) (color 0 0 0 0)
     (uuid 8d31d8e5-d719-4b55-ba9b-675c8c2b4959)
@@ -2503,9 +2509,17 @@
     (stroke (width 0) (type default))
     (uuid f20312e1-16d7-46aa-946e-8a15dbf5e11b)
   )
+  (wire (pts (xy 128.27 26.67) (xy 138.43 26.67))
+    (stroke (width 0) (type default))
+    (uuid f5b40d85-b64b-4563-9e16-fec558afaa39)
+  )
   (wire (pts (xy 50.8 118.11) (xy 52.07 118.11))
     (stroke (width 0) (type default))
     (uuid f7ac2ec0-f217-4f59-97e1-8dccbd90f00b)
+  )
+  (wire (pts (xy 128.27 34.29) (xy 138.43 34.29))
+    (stroke (width 0) (type default))
+    (uuid fba6ad5b-a80f-4287-8102-f806207c6072)
   )
   (wire (pts (xy 113.03 60.96) (xy 119.38 60.96))
     (stroke (width 0) (type default))
@@ -2916,6 +2930,32 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 138.43 30.48 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 05e4b60f-637e-454f-a6a8-b85d90e44152)
+    (property "Reference" "C5" (at 142.24 29.21 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1u" (at 142.24 31.75 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 139.3952 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 138.43 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0ee2b68e-4b93-412e-bc12-70a07abb48c6))
+    (pin "2" (uuid 68c3edcb-343e-421b-bbd6-3e8d8aeb5041))
+    (instances
+      (project "遥控器"
+        (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
+          (reference "C5") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+BATT") (at 207.01 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07613fd7-7068-4218-ba13-c0899983f9ac)
@@ -2997,7 +3037,7 @@
   (symbol (lib_id "Device:C") (at 187.96 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e9670b2-80bd-4179-b587-33b6800980b4)
-    (property "Reference" "C8" (at 190.5 43.18 0)
+    (property "Reference" "C9" (at 190.5 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 189.23 46.99 0)
@@ -3014,7 +3054,7 @@
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "C8") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -3549,7 +3589,7 @@
   (symbol (lib_id "Device:C") (at 113.03 154.94 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47f70b1e-12ae-4c64-aae8-336a7df4f813)
-    (property "Reference" "C20" (at 113.03 147.32 90)
+    (property "Reference" "C21" (at 113.03 147.32 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1u" (at 113.03 149.86 90)
@@ -3566,7 +3606,7 @@
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "C20") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -3676,7 +3716,7 @@
   (symbol (lib_id "Device:C") (at 99.06 106.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 528d359d-8585-4338-a1ed-712ab2e0f13c)
-    (property "Reference" "C16" (at 91.44 106.68 90)
+    (property "Reference" "C17" (at 91.44 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22p" (at 93.98 106.68 90)
@@ -3693,7 +3733,7 @@
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "C16") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -3777,7 +3817,7 @@
   (symbol (lib_id "Device:C") (at 124.46 106.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5aa07295-37a2-4524-901d-49e1719fd063)
-    (property "Reference" "C17" (at 116.84 106.68 90)
+    (property "Reference" "C18" (at 116.84 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22p" (at 119.38 106.68 90)
@@ -3794,7 +3834,7 @@
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "C17") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -4120,7 +4160,7 @@
   (symbol (lib_id "Device:C") (at 240.03 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77ffb668-4f42-40d7-9114-eda25b87c36e)
-    (property "Reference" "C6" (at 243.84 38.1 0)
+    (property "Reference" "C7" (at 243.84 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 243.84 40.64 0)
@@ -4137,7 +4177,7 @@
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "C6") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -4352,7 +4392,7 @@
   (symbol (lib_id "Device:C") (at 213.36 133.35 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85f707a3-c665-4f63-a3d1-81a78f2d2662)
-    (property "Reference" "C18" (at 213.36 125.73 90)
+    (property "Reference" "C19" (at 213.36 125.73 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0.1u" (at 213.36 128.27 90)
@@ -4369,7 +4409,7 @@
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "C18") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -4429,7 +4469,7 @@
   (symbol (lib_id "Device:C") (at 284.48 146.05 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9118ef0a-5deb-44a1-866c-f711409891b7)
-    (property "Reference" "C19" (at 288.29 144.78 0)
+    (property "Reference" "C20" (at 288.29 144.78 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 288.29 147.32 0)
@@ -4446,7 +4486,7 @@
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "C19") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -4506,7 +4546,7 @@
   (symbol (lib_id "Device:C") (at 234.95 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a21cb524-cf0b-4a3e-885c-49e8219c329b)
-    (property "Reference" "C15" (at 238.76 82.55 0)
+    (property "Reference" "C16" (at 238.76 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 238.76 85.09 0)
@@ -4523,7 +4563,7 @@
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "C15") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -4668,7 +4708,7 @@
   (symbol (lib_id "Device:C") (at 196.85 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab891c7d-d2b9-486a-b6e2-20cb04f244f6)
-    (property "Reference" "C13" (at 200.66 82.55 0)
+    (property "Reference" "C14" (at 200.66 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 200.66 85.09 0)
@@ -4685,7 +4725,7 @@
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "C13") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -4796,7 +4836,7 @@
   (symbol (lib_id "Device:C") (at 222.25 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b88b706d-3435-4814-9217-55852d149508)
-    (property "Reference" "C14" (at 226.06 82.55 0)
+    (property "Reference" "C15" (at 226.06 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 226.06 85.09 0)
@@ -4813,7 +4853,7 @@
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "C14") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -4948,7 +4988,7 @@
   (symbol (lib_id "Device:C") (at 123.19 158.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bfcb7257-986d-47f8-8b00-cca8203ead3d)
-    (property "Reference" "C21" (at 127 157.48 0)
+    (property "Reference" "C22" (at 127 157.48 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1u" (at 127 160.02 0)
@@ -4965,7 +5005,7 @@
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "C21") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -5025,7 +5065,7 @@
   (symbol (lib_id "Device:C") (at 186.69 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4345cdd-c1b2-46b4-a128-819160270836)
-    (property "Reference" "C12" (at 190.5 82.55 0)
+    (property "Reference" "C13" (at 190.5 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 190.5 85.09 0)
@@ -5042,7 +5082,7 @@
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "C12") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -5139,7 +5179,7 @@
   (symbol (lib_id "Device:C") (at 95.25 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c48375de-c00b-46d3-9125-ef7f2661ce03)
-    (property "Reference" "C11" (at 99.06 81.28 0)
+    (property "Reference" "C12" (at 99.06 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 99.06 83.82 0)
@@ -5156,7 +5196,7 @@
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "C11") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -5444,7 +5484,7 @@
   (symbol (lib_id "Device:C") (at 106.68 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7b1eb05-a128-4ca5-b4da-3e7f0babdb0c)
-    (property "Reference" "C9" (at 110.49 55.88 0)
+    (property "Reference" "C10" (at 110.49 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 110.49 58.42 0)
@@ -5461,7 +5501,7 @@
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "C9") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -5470,7 +5510,7 @@
   (symbol (lib_id "Device:C") (at 175.26 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d8816544-622c-411e-9cf9-98f14ff8f086)
-    (property "Reference" "C7" (at 179.07 43.18 0)
+    (property "Reference" "C8" (at 179.07 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 179.07 45.72 0)
@@ -5487,7 +5527,7 @@
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "C7") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -5655,7 +5695,7 @@
   (symbol (lib_id "Device:C") (at 229.87 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e40288f0-f0e2-403e-b882-be0840babb1f)
-    (property "Reference" "C5" (at 233.68 38.1 0)
+    (property "Reference" "C6" (at 233.68 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 233.68 40.64 0)
@@ -5672,7 +5712,7 @@
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "C5") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -5858,7 +5898,7 @@
   (symbol (lib_id "Device:C") (at 119.38 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f609f93d-224a-4217-9014-7829fe6ce1bc)
-    (property "Reference" "C10" (at 123.19 55.88 0)
+    (property "Reference" "C11" (at 123.19 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 123.19 58.42 0)
@@ -5875,7 +5915,7 @@
     (instances
       (project "遥控器"
         (path "/7acf24c7-65ea-488f-bd8e-e40e18ad27a1"
-          (reference "C10") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
